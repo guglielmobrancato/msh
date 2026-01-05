@@ -2,25 +2,25 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac nan",
+            "price": "\u20ac 3,786.97",
             "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "BITCOIN",
-            "price": "\u20ac nan",
-            "change": "\u25b2 0.78%",
+            "price": "\u20ac 79,133.35",
+            "change": "\u25b2 1.25%",
             "trend": "up"
         },
         {
             "name": "EUR/USD",
-            "price": "\u20ac nan",
+            "price": "\u20ac 1.17",
             "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac nan",
+            "price": "\u20ac 48.65",
             "change": "\u25bc nan%",
             "trend": "down"
         },
@@ -51,59 +51,66 @@ const mshData = {
     ],
     "sections": [
         {
-            "title": "Analisi Strategica: Venezuela post-Maduro - Implicazioni per l'Italia",
+            "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "Cattura Maduro (USA): Operazione Delta Force svela rinnovata assertivit\u00e0 USA in America Latina; implicazioni per politica estera italiana e rapporti transatlantici.",
-                "Vuoto di potere Venezuela: Sfide governance, opposizione, societ\u00e0 civile; potenziale instabilit\u00e0 regionale con flussi migratori verso Europa e impatto economico su interessi italiani (ENI?).",
-                "Dottrina Donroe 2.0: Intensificazione influenza USA in Venezuela ridefinisce equilibri geopolitici; necessit\u00e0 monitoraggio attento per prevenire escalation e tutelare interessi nazionali italiani."
+                "Bulgaria nell'euro: Implicazioni strategiche per l'UE e ripercussioni sull'economia italiana. Monitorare convergenza e rischi.",
+                "Venezuela e politica interna: Crisi venezuelana catalizza convergenze e divergenze tra le opposizioni italiane. Impatto su stabilit\u00e0 governo?",
+                "Politica estera USA: Nuova dottrina (Venezuela, Iran?) influenza posizionamento Italia. Valutare rischi/opportunit\u00e0 per interessi nazionali."
             ]
         },
         {
-            "title": "Quantum Tech & Physics: Sintesi Strategica",
+            "title": "Quantum Tech & Physics - Focus Italia",
             "items": [
-                "Editing Genomico: Nuovo metodo per rilevare alterazioni 'off-target'. Implicazioni per terapie geniche, focus su sicurezza e precisione.",
-                "Ammasso Globulare: Perdita stellare per 'tidal stripping'. Rilevanza per dinamiche galattiche e comprensione evoluzione ammassi.",
-                "Resistenza Antibiotica: Batteri rivelano nuovo meccanismo di 'shutdown'. Minaccia per salute pubblica, necessarie nuove strategie terapeutiche."
+                "Alga filamentosa: impatto ecosistemi fluviali locale, studio resilienza funzionale complessiva. Implicazioni gestione acque interne italiane.",
+                "Ripristino barriere coralline: potenziale aumento 50% pesce sostenibile. Opportunit\u00e0 filiera ittica italiana, investimenti conservazione mari tropicali.",
+                "Resistenza antibiotici: scoperta nuovo meccanismo 'shutdown' batterico. Urgente sviluppo terapie innovative, interesse industria farmaceutica italiana."
             ]
         },
         {
-            "title": "Sanit\u00e0 & Biotech: Punti Chiave Italia",
+            "title": "Sanit\u00e0 & Biotech - Focus Italia",
             "items": [
-                "Crans-Montana: Allerta sicurezza eventi per prevenire incendi mortali.",
-                "Aou Sassari: Nominato nuovo Direttore Generale, Serafinangelo Ponti.",
-                "Gemelli Roma: Primo intervento italiano di trasposizione uterina per preservare fertilit\u00e0 post-tumore."
+                "Torino: Successo intervento d'urgenza per tumore ovarico di grandi dimensioni, evidenziando importanza diagnosi precoce.",
+                "Aou Sassari: Nominato nuovo Direttore Generale, Serafinangelo Ponti, implicazioni per la gestione e le strategie aziendali.",
+                "San Camillo: Pubblicato decalogo prevenzione traumi da botti di Capodanno, promemoria su sicurezza e sanit\u00e0 pubblica."
             ]
         },
         {
-            "title": "Geopolitica Globale: Sintesi Operativa",
+            "title": "Geopolitica Globale: Focus Italia",
             "items": [
-                "USA catturano Maduro in Venezuela: Operazione Delta Force, impatto significativo sulla stabilit\u00e0 regionale. Almeno 40 morti (NYT). Rodriguez presidente ad interim, Brasile riconosce.",
-                "Reazioni internazionali: Condanna diffusa per attacco USA in Venezuela. Focus su impatto umanitario e rispetto del diritto internazionale.",
-                "Iran: Proteste interne represse duramente (almeno 10 morti). Possibile destabilizzazione regionale, implicazioni per politica energetica e sicurezza."
+                "USA: Pressione crescente su Venezuela (Maduro) e interesse strategico/minerario (Groenlandia) indicano potenziale instabilit\u00e0 regionale e competizione per risorse.",
+                "Venezuela: Arresto Maduro e minacce di Trump al nuovo leader segnalano rischio escalation e implicazioni per equilibri petroliferi, con possibili ripercussioni economiche per l'Italia (dipendenza energetica).",
+                "Ucraina: Intensificazione raid russi evidenzia necessit\u00e0 continua di aiuti occidentali, con impatto su sicurezza europea e catena approvvigionamenti che interessano direttamente l'Italia."
             ]
         }
     ],
     "monograph": {
-        "title": "L'Operazione Donroe: Analisi Strategica della Crisi Venezuelana e Implicazioni Geopolitiche a Lungo Termine",
+        "title": "Rimodellamento Geopolitico Terrestre: Implicazioni Strategiche per l'Esplorazione e lo Sviluppo di Marte",
         "author": "Marte Research Dept.",
-        "date": "04 Jan 2026",
+        "date": "05 Jan 2026",
         "readTime": "12 min read",
-        "content": "<p><b>Introduzione:</b> Il presente paper analizza l'intervento statunitense in Venezuela culminato con la cattura di Nicol\u00e1s Maduro, valutandone le premesse storiche, le dinamiche strategiche e le potenziali conseguenze geopolitiche. L'operazione, denominata informalmente 'Donroe' (<a href='https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/'>dottrina Donroe</a>), rappresenta un punto di svolta nelle relazioni interamericane e solleva interrogativi significativi sull'evoluzione del diritto internazionale e sull'equilibrio di potere globale.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>La crisi venezuelana affonda le sue radici in decenni di instabilit\u00e0 politica, cattiva gestione economica e corruzione sistemica. Il governo di Hugo Ch\u00e1vez, sebbene inizialmente sostenuto da ampi strati della popolazione, ha gradualmente eroso le istituzioni democratiche e instaurato un regime autoritario. La successiva presidenza di Nicol\u00e1s Maduro ha accentuato tale deriva, portando il paese a una profonda crisi umanitaria e sociale (<a href='https://www.startmag.it/mondo/la-sinistra-piagnucola-per-la-caduta-di-maduro-in-venezuela/'>sinistra piagnucola</a>). La dipendenza del Venezuela dalle esportazioni di petrolio ha reso l'economia particolarmente vulnerabile alle fluttuazioni dei prezzi globali, aggravando ulteriormente la situazione. La risposta internazionale alla crisi \u00e8 stata frammentata, con alcune nazioni che hanno sostenuto Maduro e altre che hanno riconosciuto l'opposizione guidata da Juan Guaid\u00f3. La crescente influenza di attori esterni come Russia e Cina ha contribuito a complicare ulteriormente il quadro geopolitico regionale (<a href='https://www.ilsole24ore.com/art/attacco-usa-venezuela-tutte-reazioni-mosca-violato-diritto-internazionale-AITKamg'>violato diritto internazionale</a>).</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'operazione statunitense per la cattura di Maduro ha coinvolto diverse componenti, tra cui intelligence, forze speciali (Delta Force) e azioni coperte (<a href='https://formiche.net/2026/01/delta-force-covert-action-e-intelligence-dentro-loperazione-usa-su-maduro/'>Delta Force</a>). Le informazioni raccolte attraverso attivit\u00e0 di spionaggio e droni hanno permesso di localizzare Maduro e Cilia Flores (<a href='https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss'>spies, drones and blowtorches</a>). L'attacco Handala, apparentemente un'azione diversiva, ha giocato un ruolo cruciale nella strategia complessiva (<a href='https://formiche.net/2026/01/dati-propaganda-e-intimidazione-la-strategia-dietro-lattacco-handala/'>attacco Handala</a>). La rapidit\u00e0 e l'efficacia dell'operazione suggeriscono un elevato livello di preparazione e coordinamento. Le motivazioni dell'intervento statunitense sono complesse e includono considerazioni di sicurezza nazionale, interessi economici (controllo delle risorse energetiche) e la volont\u00e0 di contrastare l'influenza di potenze rivali nella regione (<a href='https://www.startmag.it/mondo/perche-trump-ha-catturato-maduro-report-ispi/'>perche Trump ha catturato Maduro</a>). La nomina di un presidente ad interim, presumibilmente Rodr\u00edguez (<a href='https://www.ilsole24ore.com/art/maduro-carcere-new-york-nyt-almeno-40-morti-nell-attacco-usa-brasile-riconosce-rodriguez-presidente-ad-interim-AILX9Lh'>Rodr\u00edguez presidente ad interim</a>), indica l'intenzione di Washington di esercitare un controllo significativo sul futuro del Venezuela.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>La cattura di Maduro rappresenta un evento dalle conseguenze potenzialmente dirompenti per la stabilit\u00e0 regionale e globale. Se da un lato alcuni osservatori ritengono che l'intervento statunitense possa favorire una transizione democratica e la risoluzione della crisi umanitaria, dall'altro si teme che possa innescare una spirale di violenza e instabilit\u00e0 ancora maggiore. La reazione internazionale all'operazione \u00e8 stata contrastante, con alcune nazioni che hanno condannato l'uso della forza e altre che hanno espresso sostegno o comprensione (<a href='https://www.bbc.com/news/articles/czx1rpxzyx9o?at_medium=RSS&at_campaign=rss'>deeply shocked</a>). La capacit\u00e0 degli Stati Uniti di controllare il Venezuela nel lungo termine dipender\u00e0 dalla loro capacit\u00e0 di costruire un consenso interno e internazionale, di affrontare le sfide economiche e sociali del paese e di garantire la sicurezza e la stabilit\u00e0 (<a href='https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/'>controllare il Venezuela</a>). La dottrina Donroe, evocata in riferimento all'operazione, rischia di riaprire antiche ferite e alimentare sentimenti anti-americani nella regione. L'impatto di questa crisi sul futuro dell'<a href='https://formiche.net/2026/01/energia-nuovo-asse-del-potere-globale-lanalisi-di-bartolomucci/'>energia</a> globale \u00e8 da monitorare attentamente.</p>",
-        "references": [
-            "https://www.startmag.it/mondo/ecco-come-gli-stati-uniti-hanno-catturato-maduro/",
-            "https://www.startmag.it/mondo/perche-trump-ha-catturato-maduro-report-ispi/",
-            "https://www.startmag.it/mondo/la-sinistra-piagnucola-per-la-caduta-di-maduro-in-venezuela/",
-            "https://www.ilsole24ore.com/art/maduro-carcere-new-york-nyt-almeno-40-morti-nell-attacco-usa-brasile-riconosce-rodriguez-presidente-ad-interim-AILX9Lh",
-            "https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/",
-            "https://formiche.net/2026/01/delta-force-covert-action-e-intelligence-dentro-loperazione-usa-su-maduro/",
-            "https://www.ilsole24ore.com/art/attacco-usa-venezuela-tutte-reazioni-mosca-violato-diritto-internazionale-AITKamg",
-            "https://www.bbc.com/news/articles/czx1rpxzyx9o?at_medium=RSS&at_campaign=rss",
-            "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
-            "https://formiche.net/2026/01/dati-propaganda-e-intimidazione-la-strategia-dietro-lattacco-handala/",
-            "https://formiche.net/2026/01/energia-nuovo-asse-del-potere-globale-lanalisi-di-bartolomucci/"
-        ]
+        "content": "<h3>Introduzione</h3>\n<p>Il presente studio analizza le dinamiche geopolitiche terrestri emergenti nel gennaio 2026, con particolare attenzione alle implicazioni strategiche per l'esplorazione e lo sviluppo di <a href='https://www.startmag.it/mondo/guerra-venezuela-usa/'>Marte</a>. L'analisi considera eventi apparentemente disparati come l'integrazione economica europea, le strategie di contenimento degli Stati Uniti, le tensioni internazionali e i progressi scientifici, al fine di delineare uno scenario globale che possa influenzare le missioni marziane a lungo termine.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>La storia recente \u00e8 caratterizzata da una crescente competizione tra potenze globali, con gli <a href='https://formiche.net/2026/01/nuova-frontiera-deterrenza-usa-nell-emisfero-occidentale-conversazione-con-zeneli/'>Stati Uniti</a> impegnati in una politica estera assertiva volta a contenere l'influenza di attori percepiti come antagonisti. Tale strategia si manifesta attraverso azioni di deterrenza e interventi, come evidenziato dalla situazione in <a href='https://www.startmag.it/mondo/ecco-come-gli-stati-uniti-hanno-catturato-maduro/'>Venezuela</a> e le minacce verso altri paesi come <a href='https://www.ilsole24ore.com/art/trump-insiste-priorita-usa-petrolio-venezuelano-e-groenlandia-AIDWV6h'>Colombia, Cuba, Messico e Iran</a>. Contestualmente, l'Unione Europea continua il suo processo di integrazione, con la <a href='https://www.startmag.it/startup/bulgaria-uem-euro/'>Bulgaria</a> che si prepara all'ingresso nell'eurozona, un passo che potrebbe rafforzare la stabilit\u00e0 economica dell'area euro.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte tecnologico, il 2026 vede progressi significativi in diversi campi. In campo medico, interventi chirurgici complessi come la rimozione di <a href='https://www.insalutenews.it/in-salute/tumore-ovarico-da-6-chili-rimasto-nascosto-per-mesi-salvata-con-intervento-durgenza-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=tumore-ovarico-da-6-chili-rimasto-nascosto-per-mesi-salvata-con-intervento-durgenza-a-torino'>tumori ovarici di grandi dimensioni</a> dimostrano l'avanzamento delle tecniche chirurgiche. Parallelamente, l'esplorazione spaziale continua a progredire, con <a href='https://formiche.net/2026/01/christina-koch-la-prima-astronauta-che-conquistera-la-luna/'>Christina Koch</a> destinata a diventare la prima astronauta a conquistare la Luna, aprendo nuove prospettive per le future missioni marziane. \u00c8 fondamentale considerare come questi progressi possano essere applicati e adattati per affrontare le sfide uniche poste dall'ambiente marziano.</p>\n<p>Inoltre, le dinamiche globali evidenziano l'importanza della <a href='https://formiche.net/2026/01/vi-spiego-il-ruolo-della-machtpolitik-e-del-diritto-interno-nella-gestione-delle-crisi-internazionali/'>machtpolitik</a> nella gestione delle crisi internazionali. La capacit\u00e0 di una nazione di esercitare influenza e potere, sia economico che militare, gioca un ruolo cruciale nel determinare l'accesso alle risorse e la capacit\u00e0 di implementare progetti su larga scala, come le missioni su Marte. La competizione tra Stati Uniti e Cina, ad esempio, si estende anche allo spazio, con entrambe le nazioni che mirano a stabilire una presenza permanente su Marte.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Le tendenze geopolitiche attuali suggeriscono un futuro caratterizzato da una crescente competizione tra potenze globali, con possibili implicazioni per la cooperazione internazionale in ambito spaziale. La stabilit\u00e0 politica ed economica delle nazioni coinvolte nell'esplorazione di Marte sar\u00e0 un fattore determinante per il successo delle missioni a lungo termine. \u00c8 essenziale monitorare attentamente gli sviluppi politici, economici e tecnologici al fine di adattare le strategie di esplorazione e sviluppo di Marte, garantendo che siano sostenibili e resilienti di fronte alle incertezze globali.</p>\n<p>La <a href='https://www.ilsole24ore.com/art/guerra-ucraina-ultime-notizie-zelensky-2mila-raid-russi-settimana-inizio-anno-servono-piu-aiuti-AIBJPjh'>situazione in Ucraina</a> continua ad essere un elemento di instabilit\u00e0, richiedendo risorse e attenzione che potrebbero altrimenti essere destinate a progetti scientifici e spaziali.</p>\n\n<h3>Bibliografia</h3>\n<ul>\n  <li>Cosa significa per l\u2019Ue l\u2019ingresso della Bulgaria nell\u2019euro | <a href='https://www.startmag.it/startup/bulgaria-uem-euro/'>Startmag</a></li>\n  <li>Il miracolo di Maduro: compatta le opposizioni in Italia | <a href='https://www.startmag.it/mondo/il-miracolo-di-maduro-compatta-le-opposizioni-in-italia/'>Startmag</a></li>\n  <li>Non solo Venezuela, tutto sulla nuova dottrina di politica estera Usa | <a href='https://www.startmag.it/mondo/guerra-venezuela-usa/'>Startmag</a></li>\n  <li>Dopo il Venezuela, l\u2019Iran? | <a href='https://www.startmag.it/mondo/dopo-il-venezuela-liran/'>Startmag</a></li>\n  <li>Ecco come gli Stati Uniti hanno catturato Maduro | <a href='https://www.startmag.it/mondo/ecco-come-gli-stati-uniti-hanno-catturato-maduro/'>Startmag</a></li>\n  <li>Christina Koch, la prima astronauta che conquister\u00e0 la Luna | <a href='https://formiche.net/2026/01/christina-koch-la-prima-astronauta-che-conquistera-la-luna/'>Formiche</a></li>\n  <li>Vi spiego il ruolo della machtpolitik e del diritto interno nella gestione delle crisi internazionali | <a href='https://formiche.net/2026/01/vi-spiego-il-ruolo-della-machtpolitik-e-del-diritto-interno-nella-gestione-delle-crisi-internazionali/'>Formiche</a></li>\n  <li>Una nuova frontiera della deterrenza Usa nell\u2019emisfero occidentale. Conversazione con Zeneli | <a href='https://formiche.net/2026/01/nuova-frontiera-deterrenza-usa-nell-emisfero-occidentale-conversazione-con-zeneli/'>Formiche</a></li>\n  <li>Cos\u00ec la Cina subisce (e sfrutta) l\u2019azione Usa a Caracas | <a href='https://formiche.net/2026/01/cosi-la-cina-subisce-e-sfrutta-lazione-usa-a-caracas/'>Formiche</a></li>\n  <li>Tumore ovarico da 6 chili rimasto nascosto per mesi: salvata con intervento d\u2019urgenza a Torino | <a href='https://www.insalutenews.it/in-salute/tumore-ovarico-da-6-chili-rimasto-nascosto-per-mesi-salvata-con-intervento-durgenza-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=tumore-ovarico-da-6-chili-rimasto-nascosto-per-mesi-salvata-con-intervento-durgenza-a-torino'>InSaluteNews</a></li>\n  <li>Trump insiste: priorit\u00e0 petrolio venezuelano e Groenlandia. Nel mirino Colombia, Cuba, Messico e Iran | <a href='https://www.ilsole24ore.com/art/trump-insiste-priorita-usa-petrolio-venezuelano-e-groenlandia-AIDWV6h'>Il Sole 24 Ore</a></li>\n   <li>Guerra in Ucraina, ultime notizie. Zelensky: \u00ab2mila raid russi in settimana di inizio anno, servono pi\u00f9 aiuti\u00bb | <a href='https://www.ilsole24ore.com/art/guerra-ucraina-ultime-notizie-zelensky-2mila-raid-russi-settimana-inizio-anno-servono-piu-aiuti-AIBJPjh'>Il Sole 24 Ore</a></li>\n</ul>"
     },
     "archive": [
+        {
+            "title": "L'Operazione Donroe: Analisi Strategica della Crisi Venezuelana e Implicazioni Geopolitiche a Lungo Termine",
+            "author": "Marte Research Dept.",
+            "date": "04 Jan 2026",
+            "readTime": "12 min read",
+            "content": "<p><b>Introduzione:</b> Il presente paper analizza l'intervento statunitense in Venezuela culminato con la cattura di Nicol\u00e1s Maduro, valutandone le premesse storiche, le dinamiche strategiche e le potenziali conseguenze geopolitiche. L'operazione, denominata informalmente 'Donroe' (<a href='https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/'>dottrina Donroe</a>), rappresenta un punto di svolta nelle relazioni interamericane e solleva interrogativi significativi sull'evoluzione del diritto internazionale e sull'equilibrio di potere globale.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>La crisi venezuelana affonda le sue radici in decenni di instabilit\u00e0 politica, cattiva gestione economica e corruzione sistemica. Il governo di Hugo Ch\u00e1vez, sebbene inizialmente sostenuto da ampi strati della popolazione, ha gradualmente eroso le istituzioni democratiche e instaurato un regime autoritario. La successiva presidenza di Nicol\u00e1s Maduro ha accentuato tale deriva, portando il paese a una profonda crisi umanitaria e sociale (<a href='https://www.startmag.it/mondo/la-sinistra-piagnucola-per-la-caduta-di-maduro-in-venezuela/'>sinistra piagnucola</a>). La dipendenza del Venezuela dalle esportazioni di petrolio ha reso l'economia particolarmente vulnerabile alle fluttuazioni dei prezzi globali, aggravando ulteriormente la situazione. La risposta internazionale alla crisi \u00e8 stata frammentata, con alcune nazioni che hanno sostenuto Maduro e altre che hanno riconosciuto l'opposizione guidata da Juan Guaid\u00f3. La crescente influenza di attori esterni come Russia e Cina ha contribuito a complicare ulteriormente il quadro geopolitico regionale (<a href='https://www.ilsole24ore.com/art/attacco-usa-venezuela-tutte-reazioni-mosca-violato-diritto-internazionale-AITKamg'>violato diritto internazionale</a>).</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'operazione statunitense per la cattura di Maduro ha coinvolto diverse componenti, tra cui intelligence, forze speciali (Delta Force) e azioni coperte (<a href='https://formiche.net/2026/01/delta-force-covert-action-e-intelligence-dentro-loperazione-usa-su-maduro/'>Delta Force</a>). Le informazioni raccolte attraverso attivit\u00e0 di spionaggio e droni hanno permesso di localizzare Maduro e Cilia Flores (<a href='https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss'>spies, drones and blowtorches</a>). L'attacco Handala, apparentemente un'azione diversiva, ha giocato un ruolo cruciale nella strategia complessiva (<a href='https://formiche.net/2026/01/dati-propaganda-e-intimidazione-la-strategia-dietro-lattacco-handala/'>attacco Handala</a>). La rapidit\u00e0 e l'efficacia dell'operazione suggeriscono un elevato livello di preparazione e coordinamento. Le motivazioni dell'intervento statunitense sono complesse e includono considerazioni di sicurezza nazionale, interessi economici (controllo delle risorse energetiche) e la volont\u00e0 di contrastare l'influenza di potenze rivali nella regione (<a href='https://www.startmag.it/mondo/perche-trump-ha-catturato-maduro-report-ispi/'>perche Trump ha catturato Maduro</a>). La nomina di un presidente ad interim, presumibilmente Rodr\u00edguez (<a href='https://www.ilsole24ore.com/art/maduro-carcere-new-york-nyt-almeno-40-morti-nell-attacco-usa-brasile-riconosce-rodriguez-presidente-ad-interim-AILX9Lh'>Rodr\u00edguez presidente ad interim</a>), indica l'intenzione di Washington di esercitare un controllo significativo sul futuro del Venezuela.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>La cattura di Maduro rappresenta un evento dalle conseguenze potenzialmente dirompenti per la stabilit\u00e0 regionale e globale. Se da un lato alcuni osservatori ritengono che l'intervento statunitense possa favorire una transizione democratica e la risoluzione della crisi umanitaria, dall'altro si teme che possa innescare una spirale di violenza e instabilit\u00e0 ancora maggiore. La reazione internazionale all'operazione \u00e8 stata contrastante, con alcune nazioni che hanno condannato l'uso della forza e altre che hanno espresso sostegno o comprensione (<a href='https://www.bbc.com/news/articles/czx1rpxzyx9o?at_medium=RSS&at_campaign=rss'>deeply shocked</a>). La capacit\u00e0 degli Stati Uniti di controllare il Venezuela nel lungo termine dipender\u00e0 dalla loro capacit\u00e0 di costruire un consenso interno e internazionale, di affrontare le sfide economiche e sociali del paese e di garantire la sicurezza e la stabilit\u00e0 (<a href='https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/'>controllare il Venezuela</a>). La dottrina Donroe, evocata in riferimento all'operazione, rischia di riaprire antiche ferite e alimentare sentimenti anti-americani nella regione. L'impatto di questa crisi sul futuro dell'<a href='https://formiche.net/2026/01/energia-nuovo-asse-del-potere-globale-lanalisi-di-bartolomucci/'>energia</a> globale \u00e8 da monitorare attentamente.</p>",
+            "references": [
+                "https://www.startmag.it/mondo/ecco-come-gli-stati-uniti-hanno-catturato-maduro/",
+                "https://www.startmag.it/mondo/perche-trump-ha-catturato-maduro-report-ispi/",
+                "https://www.startmag.it/mondo/la-sinistra-piagnucola-per-la-caduta-di-maduro-in-venezuela/",
+                "https://www.ilsole24ore.com/art/maduro-carcere-new-york-nyt-almeno-40-morti-nell-attacco-usa-brasile-riconosce-rodriguez-presidente-ad-interim-AILX9Lh",
+                "https://formiche.net/2026/01/controllare-il-venezuela-dopo-la-cattura-di-maduro-trump-presenta-al-mondo-la-dottrina-donroe/",
+                "https://formiche.net/2026/01/delta-force-covert-action-e-intelligence-dentro-loperazione-usa-su-maduro/",
+                "https://www.ilsole24ore.com/art/attacco-usa-venezuela-tutte-reazioni-mosca-violato-diritto-internazionale-AITKamg",
+                "https://www.bbc.com/news/articles/czx1rpxzyx9o?at_medium=RSS&at_campaign=rss",
+                "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
+                "https://formiche.net/2026/01/dati-propaganda-e-intimidazione-la-strategia-dietro-lattacco-handala/",
+                "https://formiche.net/2026/01/energia-nuovo-asse-del-potere-globale-lanalisi-di-bartolomucci/"
+            ]
+        },
         {
             "title": "Analisi Strategica Multidimensionale: Implicazioni Geopolitiche, Tecnologiche e Socio-Politiche nel Mutato Scenario Globale",
             "author": "Marte Research Dept.",
@@ -1066,5 +1073,5 @@ const mshData = {
             ]
         }
     ],
-    "last_update": "04/01/2026 07:17"
+    "last_update": "05/01/2026 07:24"
 };
