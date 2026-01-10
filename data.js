@@ -2,27 +2,27 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac 3,848.40",
-            "change": "\u25b2 0.74%",
-            "trend": "up"
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
+            "trend": "down"
         },
         {
             "name": "BITCOIN",
-            "price": "\u20ac 78,078.87",
+            "price": "\u20ac nan",
             "change": "\u25bc 0.09%",
             "trend": "down"
         },
         {
             "name": "EUR/USD",
-            "price": "\u20ac 1.16",
-            "change": "\u25bc 0.24%",
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac 50.14",
-            "change": "\u25b2 1.11%",
-            "trend": "up"
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
+            "trend": "down"
         },
         {
             "name": "NASDAQ",
@@ -53,59 +53,98 @@ const mshData = {
         {
             "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "USA: Trump esercita pressione sulle aziende della difesa (Raytheon, Lockheed Martin) per ottimizzare costi, nonostante aumento produzione Lockheed.",
-                "Spazio: Problemi di salute a bordo ISS portano a sospensione attivit\u00e0 extraveicolari e valutazioni su rientro anticipato Crew-11. Impatto su cooperazione internazionale.",
-                "Geopolitica/Energia: Interesse USA (Chevron) per asset Lukoil, successivo al petrolio venezuelano. Implicazioni per equilibrio energetico globale e ruolo Italia."
+                "UE: Revisione green policies, potenziale impatto su competitivit\u00e0 italiana e transizione energetica.",
+                "MAGISTRATURA: Resistenza alla riforma, rischio di rallentamenti e tensioni politiche interne.",
+                "ITALIA-TAIWAN: Intensificazione diplomazia parlamentare, implicazioni geopolitiche e reazione Cina."
             ]
         },
         {
-            "title": "Quantum Tech & Physics: Italian Focus - Strategic Implications",
+            "title": "Quantum Tech & Physics - Sintesi Strategica (Focus Italia)",
             "items": [
-                "Sicurezza stradale: Temperature elevate aumentano il rischio incidenti per pedoni, ciclisti e motociclisti; implicazioni per infrastrutture e normative italiane, specialmente durante ondate di calore.",
-                "Innovazione vaccini: Adiuvanti deformabili per vaccini; potenziale interesse per aziende farmaceutiche italiane e collaborazioni di ricerca, con focus su efficacia e risposta immunitaria.",
-                "Ambiente e Salute: Raffinerie e impatto sulla salute; necessit\u00e0 di monitoraggio ambientale stringente e valutazione rischio/benefici per impianti italiani, considerando opinione pubblica e conformit\u00e0 normative."
+                "Modelli predittivi altezza superficie marina migliorati: Impatto potenziale su navigazione e gestione costiera italiana (es. Venezia, porti).",
+                "Biomanifattura sostenibile da lievito: Opportunit\u00e0 per l'industria chimica italiana (es. sostituzione derivati petroliferi).",
+                "Osservazioni ambientali globali (fiumi USA, ossidazione atmosferica) rilevanti per monitoraggio e gestione risorse naturali in Italia (es. qualit\u00e0 aria, gestione idrica)."
             ]
         },
         {
-            "title": "Sanit\u00e0 & Biotech: Punti Chiave Italia",
+            "title": "Sanit\u00e0 & Biotech: Focus Italia",
             "items": [
-                "Udine: Successo interventi salvavita per inalazione corpi estranei, evidenziando efficacia procedure mediche d'emergenza.",
-                "Clima: 200 anni di dati sulle piogge in Italia indicano future scarsit\u00e0 idriche e aumento eventi estremi, impattando su sanit\u00e0 e agricoltura.",
-                "Sanit\u00e0: Mancata proroga medici over 70 genera allarme collasso ospedaliero, sottolineando criticit\u00e0 gestione risorse umane nel settore."
+                "Lipodistrofie: Pisa leader europeo nello studio del pi\u00f9 ampio gruppo di pazienti.",
+                "Tumore al seno: Identificato meccanismo di diversa aggressivit\u00e0 delle mutazioni BRCA.",
+                "Sanit\u00e0 territoriale: Ugl sollecita potenziamento per alleggerire Pronto Soccorso."
             ]
         },
         {
-            "title": "Geopolitica Globale: Punti Chiave Essenziali",
+            "title": "Analisi Geopolitica Globale - Focus Italia",
             "items": [
-                "Colombia: Crescente tensione USA-Colombia, minaccia intervento militare USA. Implicazioni per la stabilit\u00e0 regionale e interessi italiani in Sud America.",
-                "Iran: Massicce proteste anti-governative in Iran. Potenziale destabilizzazione interna, impatto su accordi nucleari e forniture energetiche; riflessi sul ruolo italiano nel Mediterraneo allargato.",
-                "Ucraina: Intensificati attacchi russi su Leopoli e Kiev. Escalation conflitto, aumento rischio umanitario e impatto economico su Italia (inflazione, energia)."
+                "Groenlandia: Trump rilancia interesse acquisizione (anche forzata), implicazioni strategiche anti-Russia/Cina. Possibile impatto su dinamiche NATO e Artico, rilevanza per Italia (interessi energetici, scientifici).",
+                "Iran: Cresce instabilit\u00e0 interna con proteste antigovernative. Accuse leader iraniano a Trump segnalano rischio escalation esterna. Italia vulnerabile per interessi energetici/sicurezza regionale.",
+                "Germania: Crollo casa con vittime italiane evidenzia rischio sicurezza infrastrutture europee e necessit\u00e0 coordinamento protezione civile UE. Urgente valutazione impatto su comunit\u00e0 italiana all'estero."
             ]
         }
     ],
     "monograph": {
-        "title": "Geopolitica Terrestre e le Implicazioni Strategiche per Marte: Un'Analisi Prospettica al 2026",
+        "title": "Geopolitica Terrestre Mutante: Implicazioni Strategiche per Marte Strategic Horizon",
         "author": "Marte Research Dept.",
-        "date": "09 Jan 2026",
+        "date": "10 Jan 2026",
         "readTime": "12 min read",
-        "content": "<p><b>Abstract</b></p>\n<p>Questo documento analizza gli sviluppi geopolitici terrestri con un'enfasi sulle loro potenziali ripercussioni strategiche per le future operazioni su Marte. L'analisi si concentra su aree chiave come l'energia, la sicurezza, la politica interna degli Stati Uniti e le tensioni internazionali, con l'obiettivo di fornire una visione olistica del panorama globale che potrebbe influenzare le decisioni e le strategie marziane.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il decennio precedente al 2026 \u00e8 stato caratterizzato da una crescente instabilit\u00e0 geopolitica, con conflitti regionali e rivalit\u00e0 tra potenze che hanno plasmato l'ordine mondiale. La dipendenza energetica, in particolare, ha rappresentato un punto nevralgico, con nazioni che competono per l'accesso alle risorse e per il controllo delle rotte di approvvigionamento. Ad esempio, le dinamiche attorno al petrolio <a href='https://www.startmag.it/energia/lukoil-chevron-quantum/'>venezuelano</a> e il coinvolgimento di compagnie come Chevron illustrano questa competizione. Parallelamente, la Groenlandia, con le sue <a href='https://www.startmag.it/energia/groenlandia-risorse-sicurezza-nazionale/'>risorse naturali</a> e la sua posizione strategica, \u00e8 diventata un punto focale per le ambizioni delle grandi potenze. Queste dinamiche, unitamente alla crescente influenza di attori non statali e alle guerre ibride, hanno creato un ambiente complesso e imprevedibile.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte interno statunitense, le tensioni politiche e sociali continuano a essere elevate. Le proteste a <a href='https://www.ilsole24ore.com/art/minneapolis-dilagano-proteste-l-uccisione-37enne-renee-nicole-good-AIDmV0l'>Minneapolis</a>, in seguito all'uccisione di Renee Nicole Good, sono solo un esempio delle divisioni profonde che attraversano la societ\u00e0 americana. Allo stesso tempo, il governo USA sembra determinato a esercitare pressioni sulle aziende del settore <a href='https://www.startmag.it/spazio-e-difesa/lockheed-martin-accelera-la-produzione-mentre-trump-strattona-le-aziende-della-difesa/'>della difesa</a>, come Lockheed Martin, spingendole ad accelerare la produzione. A livello internazionale, permangono tensioni con regimi considerati ostili, come l'Iran, dove <a href='https://formiche.net/2026/01/iran-regime-fuga-caos/'>il regime</a> \u00e8 sempre pi\u00f9 vulnerabile a causa del caos interno e delle proteste. Anche le <a href='https://formiche.net/2026/01/le-flotte-ombra-tra-washington-caracas-e-mosca-il-caso-marinera-letto-da-elisabeth-braw/'>flotte ombra</a> tra Washington, Caracas e Mosca rappresentano un elemento di instabilit\u00e0. In Europa, la Francia ha espresso la sua intenzione di <a href='https://www.ilsole24ore.com/art/macron-francia-votera-contro-l-accordo-mercosur-AIriA5l'>votare contro l'accordo sul Mercosur</a>, evidenziando le divisioni interne all'Unione Europea e le sfide al libero scambio. Infine, anche in ambito spaziale si riscontrano problemi, come la recente sospensione di una <a href='https://formiche.net/2026/01/la-nasa-ha-sospeso-la-prima-passeggiata-spaziale-del-2026-cosa-e-successo/'>passeggiata spaziale</a> a causa di un problema di salute a bordo della ISS.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Gli sviluppi analizzati presentano implicazioni significative per le future operazioni su Marte. L'instabilit\u00e0 geopolitica terrestre potrebbe portare a una riduzione delle risorse disponibili per i progetti spaziali, a causa di una maggiore attenzione alle questioni interne e alla sicurezza nazionale. Le tensioni internazionali potrebbero inoltre rendere pi\u00f9 difficile la cooperazione internazionale nello spazio, un elemento cruciale per il successo di missioni complesse come quelle su Marte. Pertanto, \u00e8 fondamentale monitorare attentamente questi sviluppi e sviluppare strategie di mitigazione per affrontare i potenziali rischi. La diversificazione delle fonti di finanziamento, la promozione della cooperazione internazionale e lo sviluppo di tecnologie autonome potrebbero essere elementi chiave per garantire il successo delle future missioni marziane, indipendentemente dagli sviluppi geopolitici terrestri. Inoltre, comprendere i fattori che influenzano la politica interna degli Stati Uniti, il principale motore delle iniziative spaziali, \u00e8 essenziale per prevedere e adattarsi ai cambiamenti di priorit\u00e0.</p>",
+        "content": "<h3>Abstract</h3>\n<p>Questo documento analizza le dinamiche geopolitiche terrestri emergenti all'inizio del 2026, focalizzandosi su tendenze chiave quali la frammentazione delle politiche climatiche, la digitalizzazione pervasiva, le tensioni geopolitiche in aree strategiche come il Venezuela e la crescente importanza della difesa cibernetica. L'analisi mira a identificare le potenziali implicazioni di questi sviluppi per la pianificazione strategica di Marte Strategic Horizon, in particolare per quanto riguarda la sicurezza, l'approvvigionamento di risorse e la diplomazia interplanetaria.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il panorama globale \u00e8 caratterizzato da una crescente incertezza. L'Unione Europea, ad esempio, sembra riconsiderare alcune delle sue politiche climatiche pi\u00f9 ambiziose, in una dinamica che alcuni osservatori definiscono come una svolta <a href='https://www.startmag.it/mondo/ue-ripensamento-politiche-clima/'>'trumpiana'</a>. Questo riflette una crescente consapevolezza delle sfide economiche e sociali associate alla transizione energetica. Parallelamente, la <a href='https://www.startmag.it/mondo/la-legge-che-muove-il-mondo-e-la-digitalizzazione/'>digitalizzazione</a> continua a rimodellare l'economia globale, creando sia opportunit\u00e0 che nuove vulnerabilit\u00e0. La competizione tra Stati Uniti e Cina si intensifica, con ripercussioni su scala globale, come dimostra l'interesse di Donald Trump per la <a href='https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss'>Groenlandia</a> e le sue risorse.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte tecnologico, la <a href='https://www.startmag.it/innovazione/perche-e-pop-negli-usa-la-difesa-cyber/'>difesa cibernetica</a> \u00e8 diventata una priorit\u00e0 strategica per molte nazioni, data la crescente sofisticazione delle minacce informatiche. La ricerca scientifica continua a progredire, con importanti scoperte nel campo della biomanifattura, come la produzione di <a href='https://phys.org/news/2026-01-commercially-viable-biomanufacturing-yeast-sugar.html'>3-HP</a> tramite lieviti geneticamente modificati, e nello sviluppo di nuovi materiali per <a href='https://www.insalutenews.it/in-salute/nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori/?utm_source=rss&utm_medium=rss&utm_campaign=nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori'>batterie</a> e supercondensatori derivati da scarti agricoli. Dal punto di vista geopolitico, la situazione in <a href='https://formiche.net/2026/01/petrolio-venezuela-trump-cina-big-oil/'>Venezuela</a> rimane instabile, con gli Stati Uniti che cercano di esercitare influenza sul settore petrolifero. L'Italia sta assumendo un ruolo sempre pi\u00f9 importante nel contesto della difesa europea, come dimostra la designazione di <a href='https://formiche.net/2026/01/f-35-litalia-al-centro-trapani-birgi-diventa-il-primo-hub-europeo-delladdestramento/'>Trapani-Birgi</a> come primo hub europeo per l'addestramento sugli F-35.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Le tendenze analizzate presentano implicazioni significative per Marte Strategic Horizon. La frammentazione delle politiche climatiche terrestri potrebbe influenzare le strategie di sostenibilit\u00e0 e di gestione delle risorse su Marte. La digitalizzazione pervasiva richiede lo sviluppo di solide capacit\u00e0 di difesa cibernetica per proteggere le infrastrutture marziane da attacchi informatici. Le tensioni geopolitiche terrestri potrebbero estendersi allo spazio, richiedendo una strategia diplomatica prudente e la capacit\u00e0 di garantire l'accesso alle risorse essenziali. Infine, i progressi tecnologici nei settori della biomanifattura e dei materiali avanzati potrebbero offrire nuove soluzioni per la costruzione di basi autosufficienti su Marte. Sar\u00e0 essenziale monitorare attentamente gli sviluppi futuri e adattare di conseguenza la pianificazione strategica.</p>\n<p>Inoltre, la diplomazia parlamentare tra <a href='https://formiche.net/2026/01/vi-racconto-la-diplomazia-parlamentare-tra-italia-e-taiwan-parla-loperfido/'>Italia e Taiwan</a> \u00e8 un esempio di come le relazioni internazionali si stanno evolvendo e diversificando. Questo genere di approcci potrebbe essere replicato in futuro anche nelle relazioni interplanetarie.</p>",
         "references": [
-            "Raytheon e non solo, tutti i perch\u00e9 della sculacciata di Trump ai manager della difesa | URL: https://www.startmag.it/spazio-e-difesa/raytheon-e-non-solo-ecco-la-sculacciata-di-trump-ai-manager-della-difesa/",
-            "Lockheed Martin accelera la produzione, mentre Trump strattona le aziende della difesa | URL: https://www.startmag.it/spazio-e-difesa/lockheed-martin-accelera-la-produzione-mentre-trump-strattona-le-aziende-della-difesa/",
-            "Problema di salute a bordo della Iss: Nasa annulla passeggiata spaziale e valuta il rientro anticipato di Crew-11 | URL: https://www.startmag.it/spazio-e-difesa/problema-di-salute-a-bordo-della-iss-nasa-annulla-passeggiata-spaziale-e-valuta-il-rientro-anticipato-di-crew-11/",
-            "Cosa c\u2019\u00e8 e cosa non c\u2019\u00e8 in Groenlandia | URL: https://www.startmag.it/energia/groenlandia-risorse-sicurezza-nazionale/",
-            "Dopo il petrolio venezuelano, Chevron si papper\u00e0 anche gli impianti di Lukoil? | URL: https://www.startmag.it/energia/lukoil-chevron-quantum/",
-            "La strategia Usa dal controllo delle rotte al contenimento dei regimi ostili. Scrive Zennaro | URL: https://formiche.net/2026/01/usa-trump-america-latina-venezuela-europa-zennaro/",
-            "La Nasa ha sospeso la prima passeggiata spaziale del 2026. Cosa \u00e8 successo | URL: https://formiche.net/2026/01/la-nasa-ha-sospeso-la-prima-passeggiata-spaziale-del-2026-cosa-e-successo/",
-            "Referendum, perch\u00e9 noi cattolici scendiamo in campo per il S\u00ec. L\u2019intervento di Menorello e Sacconi | URL: https://formiche.net/2026/01/referendum-perche-noi-cattolici-scendiamo-in-campo-per-il-si-lintervento-di-menorello-e-sacconi/",
-            "Le flotte ombra tra Washington, Caracas e Mosca. Il caso Marinera letto da Elisabeth Braw | URL: https://formiche.net/2026/01/le-flotte-ombra-tra-washington-caracas-e-mosca-il-caso-marinera-letto-da-elisabeth-braw/",
-            "Iran, caos e incertezze riflettono la vulnerabilit\u00e0 del regime. L\u2019analisi di D\u2019Anna | URL: https://formiche.net/2026/01/iran-regime-fuga-caos/",
-            "Minneapolis, ancora proteste per la donna uccisa. A Portland ferita una coppia | URL: https://www.ilsole24ore.com/art/minneapolis-ancora-proteste-la-donna-uccisa-portland-ferita-coppia-AIbxsYm",
-            "Macron, La Francia voter\u00e0 contro l\u2019accordo sul Mercosur | URL: https://www.ilsole24ore.com/art/macron-francia-votera-contro-l-accordo-mercosur-AIriA5l",
-            "Minneapolis, dilagano le proteste dopo l\u2019uccisione della 37enne Renee Nicole Good | URL: https://www.ilsole24ore.com/art/minneapolis-dilagano-proteste-l-uccisione-37enne-renee-nicole-good-AIDmV0l"
+            "L\u2019Ue sta diventando un po\u2019 trumpiana sul clima? Report Nyt | URL: https://www.startmag.it/mondo/ue-ripensamento-politiche-clima/",
+            "La guerra ibrida dei magistrati alla riforma che li riguarda | URL: https://www.startmag.it/mondo/la-guerra-ibrida-dei-magistrati-alla-riforma-che-li-riguarda/",
+            "La legge che muove il mondo \u00e8 la digitalizzazione | URL: https://www.startmag.it/mondo/la-legge-che-muove-il-mondo-e-la-digitalizzazione/",
+            "Perch\u00e9 \u00e8 pop negli Usa la difesa cyber | URL: https://www.startmag.it/innovazione/perche-e-pop-negli-usa-la-difesa-cyber/",
+            "Che cosa non si vuole dire di Giorgia Meloni | URL: https://www.startmag.it/mondo/convergenze-meloni-mattarella/",
+            "Vi racconto la diplomazia parlamentare tra Italia e Taiwan. Parla Loperfido | URL: https://formiche.net/2026/01/vi-racconto-la-diplomazia-parlamentare-tra-italia-e-taiwan-parla-loperfido/",
+            "Operazione petrolio per Trump. Il faccia a faccia con le big oil sul Venezuela | URL: https://formiche.net/2026/01/petrolio-venezuela-trump-cina-big-oil/",
+            "Come una legge in California potrebbe spostare le Big Tech in Texas e Florida | URL: https://formiche.net/2026/01/come-una-legge-in-california-potrebbe-spostare-le-big-tech-in-texas-e-florida/",
+            "F-35, l\u2019Italia al centro. Trapani-Birgi diventa il primo hub europeo dell\u2019addestramento | URL: https://formiche.net/2026/01/f-35-litalia-al-centro-trapani-birgi-diventa-il-primo-hub-europeo-delladdestramento/",
+            "In Iran il disordine diventa metodo. E la piazza corre pi\u00f9 veloce del regime | URL: https://formiche.net/2026/01/in-iran-il-disordine-diventa-metodo-e-la-piazza-corre-piu-veloce-del-regime/",
+            "Loss functions and constraints improve sea surface height prediction | URL: https://phys.org/news/2026-01-loss-functions-constraints-sea-surface.html",
+            "Commercially viable biomanufacturing: Designer yeast turns sugar into lucrative chemical 3-HP | URL: https://phys.org/news/2026-01-commercially-viable-biomanufacturing-yeast-sugar.html",
+            "The 'Age of Fishes' began with mass death, fossil database reveals | URL: https://phys.org/news/2026-01-age-fishes-began-mass-death.html",
+            "Important new source of oxidation in the atmosphere found | URL: https://phys.org/news/2026-01-important-source-oxidation-atmosphere.html",
+            "The vast majority of US rivers lack any protections from human activities, new research finds | URL: https://phys.org/news/2026-01-vast-majority-rivers-lack-human.html",
+            "Etna, aggiornamento INGV dell\u2019attivit\u00e0 eruttiva | URL: https://www.insalutenews.it/in-salute/etna-aggiornamento-ingv-dellattivita-eruttiva/?utm_source=rss&utm_medium=rss&utm_campaign=etna-aggiornamento-ingv-dellattivita-eruttiva",
+            "Nanomateriali da scarti del riso per batterie e supercondensatori | URL: https://www.insalutenews.it/in-salute/nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori/?utm_source=rss&utm_medium=rss&utm_campaign=nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori",
+            "Pisa guida la ricerca europea sulle lipodistrofie: analizzato il pi\u00f9 vasto gruppo di pazienti al mondo | URL: https://www.insalutenews.it/in-salute/pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo/?utm_source=rss&utm_medium=rss&utm_campaign=pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo",
+            "Tumore al seno: scoperto perch\u00e9 alcune mutazioni BRCA uccidono pi\u00f9 di altre | URL: https://www.insalutenews.it/in-salute/tumore-al-seno-scoperto-perche-alcune-mutazioni-brca-uccidono-piu-di-altre/?utm_source=rss&utm_medium=rss&utm_campaign=tumore-al-seno-scoperto-perche-alcune-mutazioni-brca-uccidono-piu-di-altre",
+            "Emergenza Pronto Soccorso, Giuliano (Ugl): \u201cServe una sanit\u00e0 territoriale che funzioni davvero\u201d | URL: https://www.insalutenews.it/in-salute/emergenza-pronto-soccorso-giuliano-ugl-serve-una-sanita-territoriale-che-funzioni-davvero/?utm_source=rss&utm_medium=rss&utm_campaign=emergenza-pronto-soccorso-giuliano-ugl-serve-una-sanita-territoriale-che-funzioni-davvero",
+            "Trump says US needs to 'own' Greenland to prevent Russia and China from taking it | URL: https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss",
+            "Greenlanders unnerved as they find themselves in geopolitical storm | URL: https://www.bbc.com/news/articles/cgrd2e7p9reo?at_medium=RSS&at_campaign=rss",
+            "Iran leader says protesters are vandals trying to please Trump | URL: https://www.bbc.com/news/articles/c4g49djqqjgo?at_medium=RSS&at_campaign=rss",
+            "Huge anti-government protests in Tehran and other Iranian cities, videos show | URL: https://www.bbc.com/news/articles/cg7y0579lp8o?at_medium=RSS&at_campaign=rss",
+            "Swiss search souls and question government after ski resort fire | URL: https://www.bbc.com/news/articles/cpwnd22lj54o?at_medium=RSS&at_campaign=rss",
+            "Trump: \u00abPrenderemo la Groenlandia con le buone o con le cattive\u00bb | URL: https://www.ilsole24ore.com/art/trump-prenderemo-groenlandia-le-buone-o-le-cattive-AI92Hfn",
+            "Chi \u00e8 Ryan Chen, il \u00abTrump cinese\u00bb diventato virale su TikTok | URL: https://www.ilsole24ore.com/art/chi-e-ryan-chen-trump-cinese-diventato-virale-tik-tok-AIZuwdn",
+            "Germania, crolla una casa, morti tre italiani | URL: https://www.ilsole24ore.com/art/germania-crolla-casa-morti-tre-italiani-AIDv8Dn",
+            "Venezuela, Trump incontra vertici Big Oil. \u00abDecideremo noi chi potr\u00e0 lavorare l\u00ec\u00bb. Descalzi (Eni): pronti a investire | URL: https://www.ilsole24ore.com/art/venezuela-trump-incontra-vertici-big-oil-c-e-anche-eni-sequestrata-un-altra-petroliera-AIkRGAn",
+            "Strage di Crans, fermato il proprietario del Constellation, domiciliari e braccialetto per la moglie | URL: https://www.ilsole24ore.com/art/la-strage-crans-fermato-proprietario-constellation-AIWps3m"
         ]
     },
     "archive": [
+        {
+            "title": "Geopolitica Terrestre e le Implicazioni Strategiche per Marte: Un'Analisi Prospettica al 2026",
+            "author": "Marte Research Dept.",
+            "date": "09 Jan 2026",
+            "readTime": "12 min read",
+            "content": "<p><b>Abstract</b></p>\n<p>Questo documento analizza gli sviluppi geopolitici terrestri con un'enfasi sulle loro potenziali ripercussioni strategiche per le future operazioni su Marte. L'analisi si concentra su aree chiave come l'energia, la sicurezza, la politica interna degli Stati Uniti e le tensioni internazionali, con l'obiettivo di fornire una visione olistica del panorama globale che potrebbe influenzare le decisioni e le strategie marziane.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il decennio precedente al 2026 \u00e8 stato caratterizzato da una crescente instabilit\u00e0 geopolitica, con conflitti regionali e rivalit\u00e0 tra potenze che hanno plasmato l'ordine mondiale. La dipendenza energetica, in particolare, ha rappresentato un punto nevralgico, con nazioni che competono per l'accesso alle risorse e per il controllo delle rotte di approvvigionamento. Ad esempio, le dinamiche attorno al petrolio <a href='https://www.startmag.it/energia/lukoil-chevron-quantum/'>venezuelano</a> e il coinvolgimento di compagnie come Chevron illustrano questa competizione. Parallelamente, la Groenlandia, con le sue <a href='https://www.startmag.it/energia/groenlandia-risorse-sicurezza-nazionale/'>risorse naturali</a> e la sua posizione strategica, \u00e8 diventata un punto focale per le ambizioni delle grandi potenze. Queste dinamiche, unitamente alla crescente influenza di attori non statali e alle guerre ibride, hanno creato un ambiente complesso e imprevedibile.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte interno statunitense, le tensioni politiche e sociali continuano a essere elevate. Le proteste a <a href='https://www.ilsole24ore.com/art/minneapolis-dilagano-proteste-l-uccisione-37enne-renee-nicole-good-AIDmV0l'>Minneapolis</a>, in seguito all'uccisione di Renee Nicole Good, sono solo un esempio delle divisioni profonde che attraversano la societ\u00e0 americana. Allo stesso tempo, il governo USA sembra determinato a esercitare pressioni sulle aziende del settore <a href='https://www.startmag.it/spazio-e-difesa/lockheed-martin-accelera-la-produzione-mentre-trump-strattona-le-aziende-della-difesa/'>della difesa</a>, come Lockheed Martin, spingendole ad accelerare la produzione. A livello internazionale, permangono tensioni con regimi considerati ostili, come l'Iran, dove <a href='https://formiche.net/2026/01/iran-regime-fuga-caos/'>il regime</a> \u00e8 sempre pi\u00f9 vulnerabile a causa del caos interno e delle proteste. Anche le <a href='https://formiche.net/2026/01/le-flotte-ombra-tra-washington-caracas-e-mosca-il-caso-marinera-letto-da-elisabeth-braw/'>flotte ombra</a> tra Washington, Caracas e Mosca rappresentano un elemento di instabilit\u00e0. In Europa, la Francia ha espresso la sua intenzione di <a href='https://www.ilsole24ore.com/art/macron-francia-votera-contro-l-accordo-mercosur-AIriA5l'>votare contro l'accordo sul Mercosur</a>, evidenziando le divisioni interne all'Unione Europea e le sfide al libero scambio. Infine, anche in ambito spaziale si riscontrano problemi, come la recente sospensione di una <a href='https://formiche.net/2026/01/la-nasa-ha-sospeso-la-prima-passeggiata-spaziale-del-2026-cosa-e-successo/'>passeggiata spaziale</a> a causa di un problema di salute a bordo della ISS.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Gli sviluppi analizzati presentano implicazioni significative per le future operazioni su Marte. L'instabilit\u00e0 geopolitica terrestre potrebbe portare a una riduzione delle risorse disponibili per i progetti spaziali, a causa di una maggiore attenzione alle questioni interne e alla sicurezza nazionale. Le tensioni internazionali potrebbero inoltre rendere pi\u00f9 difficile la cooperazione internazionale nello spazio, un elemento cruciale per il successo di missioni complesse come quelle su Marte. Pertanto, \u00e8 fondamentale monitorare attentamente questi sviluppi e sviluppare strategie di mitigazione per affrontare i potenziali rischi. La diversificazione delle fonti di finanziamento, la promozione della cooperazione internazionale e lo sviluppo di tecnologie autonome potrebbero essere elementi chiave per garantire il successo delle future missioni marziane, indipendentemente dagli sviluppi geopolitici terrestri. Inoltre, comprendere i fattori che influenzano la politica interna degli Stati Uniti, il principale motore delle iniziative spaziali, \u00e8 essenziale per prevedere e adattarsi ai cambiamenti di priorit\u00e0.</p>",
+            "references": [
+                "Raytheon e non solo, tutti i perch\u00e9 della sculacciata di Trump ai manager della difesa | URL: https://www.startmag.it/spazio-e-difesa/raytheon-e-non-solo-ecco-la-sculacciata-di-trump-ai-manager-della-difesa/",
+                "Lockheed Martin accelera la produzione, mentre Trump strattona le aziende della difesa | URL: https://www.startmag.it/spazio-e-difesa/lockheed-martin-accelera-la-produzione-mentre-trump-strattona-le-aziende-della-difesa/",
+                "Problema di salute a bordo della Iss: Nasa annulla passeggiata spaziale e valuta il rientro anticipato di Crew-11 | URL: https://www.startmag.it/spazio-e-difesa/problema-di-salute-a-bordo-della-iss-nasa-annulla-passeggiata-spaziale-e-valuta-il-rientro-anticipato-di-crew-11/",
+                "Cosa c\u2019\u00e8 e cosa non c\u2019\u00e8 in Groenlandia | URL: https://www.startmag.it/energia/groenlandia-risorse-sicurezza-nazionale/",
+                "Dopo il petrolio venezuelano, Chevron si papper\u00e0 anche gli impianti di Lukoil? | URL: https://www.startmag.it/energia/lukoil-chevron-quantum/",
+                "La strategia Usa dal controllo delle rotte al contenimento dei regimi ostili. Scrive Zennaro | URL: https://formiche.net/2026/01/usa-trump-america-latina-venezuela-europa-zennaro/",
+                "La Nasa ha sospeso la prima passeggiata spaziale del 2026. Cosa \u00e8 successo | URL: https://formiche.net/2026/01/la-nasa-ha-sospeso-la-prima-passeggiata-spaziale-del-2026-cosa-e-successo/",
+                "Referendum, perch\u00e9 noi cattolici scendiamo in campo per il S\u00ec. L\u2019intervento di Menorello e Sacconi | URL: https://formiche.net/2026/01/referendum-perche-noi-cattolici-scendiamo-in-campo-per-il-si-lintervento-di-menorello-e-sacconi/",
+                "Le flotte ombra tra Washington, Caracas e Mosca. Il caso Marinera letto da Elisabeth Braw | URL: https://formiche.net/2026/01/le-flotte-ombra-tra-washington-caracas-e-mosca-il-caso-marinera-letto-da-elisabeth-braw/",
+                "Iran, caos e incertezze riflettono la vulnerabilit\u00e0 del regime. L\u2019analisi di D\u2019Anna | URL: https://formiche.net/2026/01/iran-regime-fuga-caos/",
+                "Minneapolis, ancora proteste per la donna uccisa. A Portland ferita una coppia | URL: https://www.ilsole24ore.com/art/minneapolis-ancora-proteste-la-donna-uccisa-portland-ferita-coppia-AIbxsYm",
+                "Macron, La Francia voter\u00e0 contro l\u2019accordo sul Mercosur | URL: https://www.ilsole24ore.com/art/macron-francia-votera-contro-l-accordo-mercosur-AIriA5l",
+                "Minneapolis, dilagano le proteste dopo l\u2019uccisione della 37enne Renee Nicole Good | URL: https://www.ilsole24ore.com/art/minneapolis-dilagano-proteste-l-uccisione-37enne-renee-nicole-good-AIDmV0l"
+            ]
+        },
         {
             "title": "Geopolitica Terrestre e Proiezioni Strategiche: Analisi Multidimensionale per Marte Strategic Horizon",
             "author": "Marte Research Dept.",
@@ -1133,5 +1172,5 @@ const mshData = {
             ]
         }
     ],
-    "last_update": "09/01/2026 07:21"
+    "last_update": "10/01/2026 07:14"
 };
