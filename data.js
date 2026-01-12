@@ -2,25 +2,25 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac nan",
+            "price": "\u20ac 3,930.52",
             "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "BITCOIN",
-            "price": "\u20ac nan",
-            "change": "\u25b2 0.21%",
+            "price": "\u20ac 78,486.77",
+            "change": "\u25b2 0.97%",
             "trend": "up"
         },
         {
             "name": "EUR/USD",
-            "price": "\u20ac nan",
+            "price": "\u20ac 1.17",
             "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac nan",
+            "price": "\u20ac 50.57",
             "change": "\u25bc nan%",
             "trend": "down"
         },
@@ -51,35 +51,35 @@ const mshData = {
     ],
     "sections": [
         {
-            "title": "Intelligence & Think Tank - Sintesi Strategica Italia",
+            "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "IA e Lavoro: Impatto trasformativo sull'occupazione italiana, necessit\u00e0 di analisi proattiva per mitigare rischi e massimizzare opportunit\u00e0.",
-                "Geopolitica: Crescente polarizzazione tra potenze (USA, Cina, Russia) e impatto sull'opinione pubblica italiana; implicazioni per la politica estera.",
-                "Vulnerabilit\u00e0 Economica: Esposizione dell'Italia e dei mercati emergenti a crisi sistemiche (vedi Venezuela); urgenza di politiche di resilienza e diversificazione."
+                "Stellantis Italia: Analisi produzione stabilimenti nel 2025 (Report Fim-Cisl). Impatto economico e occupazionale chiave.",
+                "WebSoft Italia: Mediobanca identifica Sesa, Reply, Engineering come leader. Implicazioni per innovazione e crescita digitale nazionale.",
+                "Sistema-Paese: Lezioni ibride da conflitti internazionali applicabili a territori italiani. Necessaria resilienza e adattamento strategico."
             ]
         },
         {
-            "title": "Quantum Tech & Physics - Sintesi Strategica (Focus Italia)",
+            "title": "Quantum Tech & Physics - Analisi Strategica Italia",
             "items": [
-                "Catalizzatore semicristallino per produzione idrogeno elettrolitico: Implicazioni per filiera italiana energia pulita. Valutare collaborazioni con Giappone.",
-                "Lacune dati globali e citizen science: Opportunit\u00e0 per l'Italia di rafforzare statistiche ufficiali e engagement cittadino in ricerca scientifica (Open Science).",
-                "Blocco enzimi per trattare malattie: Focus su ricerca e sviluppo (R&S) in Italia per farmaci innovativi. Potenziali sinergie pubblico-privato."
+                "Solitoni 3D resilienti: Implicazioni potenziali per trasmissione dati quantistica ultra-stabile; interesse per infrastrutture di comunicazione avanzate.",
+                "JWST rileva oggetti anomali: Necessario studio approfondito per validare modelli cosmologici e possibili deviazioni dalle leggi fisiche attuali.",
+                "AI accelerazione scoperta farmaci: Vantaggio competitivo per l'industria farmaceutica italiana; investimenti strategici necessari per mantenere leadership."
             ]
         },
         {
             "title": "Sanit\u00e0 & Biotech - Focus Italia",
             "items": [
-                "Lipodistrofie: Pisa leader europeo nella ricerca, studio sul pi\u00f9 ampio gruppo di pazienti al mondo.",
-                "Tumore al seno: Identificate cause di aggressivit\u00e0 variabile nelle mutazioni BRCA, impatto su terapie mirate.",
-                "Sanit\u00e0 territoriale: Ugl sollecita potenziamento per decongestionare i Pronto Soccorso, problema critico."
+                "Lipodistrofie: Pisa leader europeo nello studio del pi\u00f9 ampio gruppo di pazienti.",
+                "Tumore al seno: Identificati meccanismi differenziali di mortalit\u00e0 legati a mutazioni BRCA.",
+                "Emergenza Pronto Soccorso: Ugl sollecita potenziamento sanit\u00e0 territoriale per decongestionare."
             ]
         },
         {
-            "title": "Geopolitica Globale: Sintesi Intelligence (Focus Italia)",
+            "title": "Geopolitical Risk Assessment - Italy Focus",
             "items": [
-                "IRAN: Proteste interne in Iran, nonostante la repressione, segnalano instabilit\u00e0 regime e potenziale impatto regionale. Rilevanza per interessi energetici italiani (dipendenza da forniture e possibili alternative).",
-                "USA-SIRIA: Raid USA contro ISIS in Siria indicano persistente minaccia terroristica e coinvolgimento USA nella regione. Implicazioni per strategie antiterrorismo italiane e cooperazione internazionale.",
-                "USA-MINNEAPOLIS & VENEZUELA: Tensioni sociali negli USA e decreto Trump sul petrolio venezuelano riflettono instabilit\u00e0 interna USA e influenza geopolitica. Potenziali ripercussioni su export italiano verso USA e Venezuela, e sulle politiche energetiche italiane."
+                "Iran/US: Escalation risk remains high despite negotiation claims; potential for asymmetric warfare impacting Italian interests in the region.",
+                "Venezuela: Release of Italian nationals Trentini and Burl\u00f2 signals possible shift in regime's posture; implications for Italian diplomacy and business interests in Caracas.",
+                "Fed Powell Investigation: Criminal probe adds to global financial uncertainty; potential impact on Italian economy and debt markets requiring close monitoring."
             ]
         }
     ],
@@ -123,6 +123,45 @@ const mshData = {
         ]
     },
     "archive": [
+        {
+            "title": "Analisi Strategica Multidimensionale: Convergenze Geopolitiche, Tecnologiche ed Ambientali nel Mutato Ordine Globale",
+            "author": "Marte Research Dept.",
+            "date": "11 Jan 2026",
+            "readTime": "12 min read",
+            "content": "<p><b>Abstract:</b> Questo studio analizza le complesse interazioni tra sviluppi geopolitici, progressi tecnologici, e sfide ambientali che plasmano l'attuale panorama globale. Attraverso un'analisi interdisciplinare, il paper mira a identificare tendenze strategiche emergenti e a valutare le loro potenziali implicazioni a lungo termine per la comunit\u00e0 internazionale.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il mondo del 2026 \u00e8 caratterizzato da una crescente competizione per le <a href='https://formiche.net/2026/01/il-risiko-per-la-contesa-dei-territori-e-delle-risorse-lanalisi-di-becchetti/'>risorse</a> e per l'influenza geopolitica. Le tensioni tra le grandi potenze, come evidenziato dalla complessa situazione in <a href='https://www.ilsole24ore.com/art/insediamenti-cisgiordania-alt-tedesco-progetti-israeliani-AIsEUBo'>Cisgiordania</a> con le dispute sugli insediamenti, riflettono un ordine internazionale in rapida evoluzione. L'intervento militare statunitense contro obiettivi del gruppo <a href='https://www.bbc.com/news/articles/cly9597r4qpo?at_medium=RSS&at_campaign=rss'>Stato Islamico</a> in Siria sottolinea la persistente instabilit\u00e0 in Medio Oriente. Allo stesso tempo, dinamiche interne continuano a destabilizzare paesi come l'<a href='https://www.bbc.com/news/articles/cm2jek15m8no?at_medium=RSS&at_campaign=rss'>Iran</a>, dove le proteste sfidano la repressione governativa. Le tensioni in <a href='https://www.ilsole24ore.com/art/minneapolis-infiamma-stati-uniti-ancora-proteste-la-donna-uccisa-un-agente-ice-AI5u2Ao'>Minneapolis</a> dimostrano le profonde divisioni sociali e politiche all'interno degli Stati Uniti.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'intelligenza artificiale (IA) continua a trasformare il mondo del lavoro, con implicazioni significative per l'occupazione e la produttivit\u00e0 (<a href='https://www.startmag.it/innovazione/impatto-ia-imprese-lavoro/'>impatto IA</a>). Tuttavia, sorgono preoccupazioni etiche e di sicurezza, come dimostrato dal blocco dell'<a href='https://www.ilsole24ore.com/art/l-indonesia-blocca-l-ai-grok-musk-immagini-pornografiche-false-AIrR86n'>AI Grok</a> di Musk in Indonesia a causa di immagini pornografiche false. Parallelamente, la ricerca scientifica progredisce in diversi settori, dalla medicina (studio sulle <a href='https://www.insalutenews.it/in-salute/pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo/?utm_source=rss&utm_medium=rss&utm_campaign=pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo'>lipodistrofie</a>) all'energia (catalizzatori per la produzione di <a href='https://phys.org/news/2026-01-semicrystalline-catalyst-stability-electrolytic-hydrogen.html'>idrogeno</a>). L'utilizzo di <a href='https://www.insalutenews.it/in-salute/nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori/?utm_source=rss&utm_medium=rss&utm_campaign=nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori'>nanomateriali</a> derivati da scarti agricoli per batterie e supercondensatori evidenzia l'importanza dell'innovazione sostenibile.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Il futuro sar\u00e0 plasmato dalla capacit\u00e0 di gestire le complesse interazioni tra geopolitica, tecnologia e ambiente. La cooperazione internazionale, come auspicato da <a href='https://formiche.net/2026/01/benedetta-europa-cosi-papa-leone-indica-la-via-in-un-mondo-che-cambia/'>Papa Leone</a> per l'Europa, e l'adozione di politiche lungimiranti saranno fondamentali per affrontare le sfide globali. L'importanza della <a href='https://phys.org/news/2026-01-global-gaps-highlight-citizen-science.html'>citizen science</a> nel colmare le lacune di dati globali sottolinea il ruolo cruciale della partecipazione civica. La transizione verso un'economia pi\u00f9 sostenibile richieder\u00e0 investimenti in tecnologie pulite e una gestione responsabile delle risorse naturali.</p>",
+            "references": [
+                "Che impatto avr\u00e0 l\u2019Ia sul mondo del lavoro? | URL: https://www.startmag.it/innovazione/impatto-ia-imprese-lavoro/",
+                "Trump sta sopravvalutando il petrolio del Venezuela? | URL: https://www.startmag.it/energia/venezuela-petrolio-analisi-krugman/",
+                "Gli italiani stanno con America, Cina o Russia? Urge referendum | URL: https://www.startmag.it/mondo/gli-italiani-stanno-con-america-cina-o-russia-urge-referendum/",
+                "Cosa succeder\u00e0 ai mercati emergenti dopo il caso Venezuela | URL: https://www.startmag.it/economia/cosa-succedera-ai-mercati-emergenti-dopo-il-caso-venezuela/",
+                "Spegnere gli incendi o alimentare i data center? Questo \u00e8 il dilemma del futuro | URL: https://www.startmag.it/innovazione/intelligenza-artificiale-sostenibilita-ambientale/",
+                "Polizze catastrofali, un cammino stop and go. L\u2019opinione di Pedrizzi | URL: https://formiche.net/2026/01/polizze-catastrofali-un-cammino-stop-and-go-lopinione-di-pedrizzi/",
+                "Benedetta Europa! Cos\u00ec papa Leone indica la via in un mondo che cambia | URL: https://formiche.net/2026/01/benedetta-europa-cosi-papa-leone-indica-la-via-in-un-mondo-che-cambia/",
+                "Il risiko per la contesa dei territori e delle risorse. L\u2019analisi di Becchetti | URL: https://formiche.net/2026/01/il-risiko-per-la-contesa-dei-territori-e-delle-risorse-lanalisi-di-becchetti/",
+                "Crans-Montana, la sicurezza \u00e8 una cosa seria. La riflessione di Costanzo | URL: https://formiche.net/2026/01/crans-montana-la-sicurezza-e-una-cosa-seria-la-riflessione-di-costanzo/",
+                "Ue\u2013Mercosur, un accordo economico e geopolitico. Demarais spiega perch\u00e9 | URL: https://formiche.net/2026/01/ue-mercosur-un-accordo-economico-e-geopolitico-demarais-spiega-perche/",
+                "Recommendations for reintroducing charophytes for better water quality and biodiversity in lakes | URL: https://phys.org/news/2026-01-reintroducing-charophytes-quality-biodiversity-lakes.html",
+                "Japanese study investigates how tariff policies influence long-run economic growth | URL: https://phys.org/news/2026-01-japanese-tariff-policies-economic-growth.html",
+                "Global data gaps highlight why citizen science has now become essential for official statistics | URL: https://phys.org/news/2026-01-global-gaps-highlight-citizen-science.html",
+                "Q&A: What do scientists need to learn next about blocking enzymes to treat disease? | URL: https://phys.org/news/2026-01-qa-scientists-blocking-enzymes-disease.html",
+                "A semicrystalline catalyst balances activity and stability for electrolytic hydrogen production | URL: https://phys.org/news/2026-01-semicrystalline-catalyst-stability-electrolytic-hydrogen.html",
+                "Etna, aggiornamento INGV dell\u2019attivit\u00e0 eruttiva | URL: https://www.insalutenews.it/in-salute/etna-aggiornamento-ingv-dellattivita-eruttiva/?utm_source=rss&utm_medium=rss&utm_campaign=etna-aggiornamento-ingv-dellattivita-eruttiva",
+                "Nanomateriali da scarti del riso per batterie e supercondensatori | URL: https://www.insalutenews.it/in-salute/nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori/?utm_source=rss&utm_medium=rss&utm_campaign=nanomateriali-da-scarti-del-riso-per-batterie-e-supercondensatori",
+                "Pisa guida la ricerca europea sulle lipodistrofie: analizzato il pi\u00f9 vasto gruppo di pazienti al mondo | URL: https://www.insalutenews.it/in-salute/pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo/?utm_source=rss&utm_medium=rss&utm_campaign=pisa-guida-la-ricerca-europea-sulle-lipodistrofie-analizzato-il-piu-vasto-gruppo-di-pazienti-al-mondo",
+                "Tumore al seno: scoperto perch\u00e9 alcune mutazioni BRCA uccidono pi\u00f9 di altre | URL: https://www.insalutenews.it/in-salute/tumore-al-seno-scoperto-perche-alcune-mutazioni-brca-uccidono-piu-di-altre/?utm_source=rss&utm_medium=rss&utm_campaign=tumore-al-seno-scoperto-perche-alcune-mutazioni-brca-uccidono-piu-di-altre",
+                "Emergenza Pronto Soccorso, Giuliano (Ugl): \u201cServe una sanit\u00e0 territoriale che funzioni davvero\u201d | URL: https://www.insalutenews.it/in-salute/emergenza-pronto-soccorso-giuliano-ugl-serve-una-sanita-territoriale-che-funzioni-davvero/?utm_source=rss&utm_medium=rss&utm_campaign=emergenza-pronto-soccorso-giuliano-ugl-serve-una-sanita-territoriale-che-funzioni-davvero",
+                "Iran protesters defy crackdown as videos show violent clashes | URL: https://www.bbc.com/news/articles/cm2jek15m8no?at_medium=RSS&at_campaign=rss",
+                "US military strikes Islamic State group targets in Syria, officials say | URL: https://www.bbc.com/news/articles/cly9597r4qpo?at_medium=RSS&at_campaign=rss",
+                "Dozens arrested and one police officer injured in Minneapolis protests | URL: https://www.bbc.com/news/articles/cvgpnwnqygro?at_medium=RSS&at_campaign=rss",
+                "Bob Weir, Grateful Dead co-founder, dies aged 78 | URL: https://www.bbc.com/news/articles/cly95x9qe4ko?at_medium=RSS&at_campaign=rss",
+                "'The answer cannot be nothing': The battle over Canada's mystery brain disease | URL: https://www.bbc.com/news/articles/c623r47d67lo?at_medium=RSS&at_campaign=rss",
+                "Trump firma decreto per proteggere proventi del petrolio venezuelano | URL: https://www.ilsole24ore.com/art/trump-firma-decreto-proteggere-proventi-petrolio-venezuelano-AIr66Lo",
+                "La Germania vuole bloccare i nuovi insediamenti di Israele in Cisgiordania | URL: https://www.ilsole24ore.com/art/insediamenti-cisgiordania-alt-tedesco-progetti-israeliani-AIsEUBo",
+                "Minneapolis infiamma gli Stati Uniti, ancora proteste per la donna uccisa da un agente Ice | URL: https://www.ilsole24ore.com/art/minneapolis-infiamma-stati-uniti-ancora-proteste-la-donna-uccisa-un-agente-ice-AI5u2Ao",
+                "L\u2019Indonesia blocca l\u2019AI Grok di Musk per immagini pornografiche false | URL: https://www.ilsole24ore.com/art/l-indonesia-blocca-l-ai-grok-musk-immagini-pornografiche-false-AIrR86n",
+                "Cisgiordania, coloni israeliani assaltano vivaio e picchiano palestinese | URL: https://www.ilsole24ore.com/art/cisgiordania-video-mostra-assalto-coloni-un-vivaio-picchiato-palestinese-AIC1u5n"
+            ]
+        },
         {
             "title": "Geopolitica Terrestre Mutante: Implicazioni Strategiche per Marte Strategic Horizon",
             "author": "Marte Research Dept.",
@@ -1211,5 +1250,5 @@ const mshData = {
             ]
         }
     ],
-    "last_update": "11/01/2026 07:16"
+    "last_update": "12/01/2026 07:22"
 };
