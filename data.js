@@ -2,27 +2,27 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac 3,938.30",
-            "change": "\u25bc 0.24%",
-            "trend": "down"
+            "price": "\u20ac 3,982.01",
+            "change": "\u25b2 1.12%",
+            "trend": "up"
         },
         {
             "name": "BITCOIN",
-            "price": "\u20ac 78,744.11",
-            "change": "\u25b2 0.71%",
-            "trend": "up"
+            "price": "\u20ac 81,557.48",
+            "change": "\u25bc 0.29%",
+            "trend": "down"
         },
         {
             "name": "EUR/USD",
             "price": "\u20ac 1.17",
-            "change": "\u25b2 0.34%",
-            "trend": "up"
+            "change": "\u25bc 0.11%",
+            "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac 51.31",
-            "change": "\u25b2 0.57%",
-            "trend": "up"
+            "price": "\u20ac 52.14",
+            "change": "\u25bc 0.64%",
+            "trend": "down"
         },
         {
             "name": "NASDAQ",
@@ -53,76 +53,99 @@ const mshData = {
         {
             "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "Germania: Ritardi infrastrutturali (es. Stoccarda 21) impattano competitivit\u00e0, rischio emulazione in Italia.",
-                "Referendum Giustizia: Divisioni interne alla sinistra italiana; implicazioni su stabilit\u00e0 governo e riforme.",
-                "Autonomia Europea: Proposta Kubilius (100k uomini) segnala crescente attenzione a difesa UE; implicazioni per ruolo Italia in NATO e politica estera."
+                "Meloni: Rafforzamento partnership strategiche con Giappone, Corea del Sud e Oman. Implicazioni per export e posizionamento geopolitico italiano.",
+                "Sanit\u00e0 Italiana: Riforma del Servizio Sanitario Nazionale in corso e introduzione dell'Intelligenza Artificiale per i medici di famiglia. Monitorare impatto su accessibilit\u00e0 e qualit\u00e0 del servizio.",
+                "Geopolitica: Tensioni Iran (proteste interne, sanzioni USA) e conflitto Ucraina (nuovi droni russi). Implicazioni per sicurezza energetica e stabilit\u00e0 regionale."
             ]
         },
         {
-            "title": "Quantum Tech & Physics: Sintesi Notizie Strategiche (Focus Italia)",
+            "title": "Quantum Tech & Physics: Analisi Strategica (Focus Italia)",
             "items": [
-                "Polarizzazione razziale in Canada: Ripercussioni su modelli welfare e possibili parallelismi/rischi anche in Italia nel supporto ai minori e famiglie.",
-                "Nane bianche: Ricerca astrofisica avanzata. Potenziali sviluppi futuri in tecnologie di osservazione e simulazione applicabili a contesti terrestri (es. monitoraggio ambientale).",
-                "Inquinamento da microplastiche ('nurdles'): Allerta crescente per ecosistemi marini; necessario monitoraggio coste italiane e sviluppo tecnologie di rimozione/prevenzione."
+                "Telescopio Flagship: Filantropia accelera sviluppo. Implicazioni per partnership pubblico-privato italiane in astrofisica e space economy.",
+                "Fabbriche Orbitanti: Prospettive manifatturiere spaziali. Opportunit\u00e0 per l'Italia nell'integrazione di tecnologie quantistiche per la sensoristica e la comunicazione.",
+                "Soluzioni Basate sulla Natura: Parchi urbani inadeguati contro il rischio calore. Necessit\u00e0 di strategie integrate e dati precisi (potenziale per sensoristica quantistica avanzata per monitoraggio ambientale) per citt\u00e0 italiane."
             ]
         },
         {
-            "title": "Sanit\u00e0 & Biotech: Focus Italia - Punti Chiave",
+            "title": "Sanit\u00e0 & Biotech: Intelligence Italia",
             "items": [
-                "Campi Flegrei: Rischio eruzione basso, ma monitoraggio INGV costante.",
-                "Diabete: Inefficacia 'scorciatoie' alimentari; necessit\u00e0 approccio olistico e continuo.",
-                "Oncologia Ginecologica: Policlinico Gemelli leader in chirurgia di precisione con tecnologia avanzata ('Van Gogh')."
+                "Robotica spaziale italiana: Sviluppo di tecnologie per ottimizzare missioni sfruttando il vuoto.",
+                "Neuroscienze: Progressi italiani (anche in collaborazione con USA) su Alzheimer, tumori cerebrali e declino cognitivo tramite ingegneria proteica e studio degli astrociti.",
+                "Innovazione diagnostica: Nuove tecniche per infiammazioni intestinali e follow-up di malformazioni renali pediatriche, con focus su ricerca italiana."
             ]
         },
         {
-            "title": "Geopolitical Scan: Rapid Analysis",
+            "title": "Geopolitical Intelligence Briefing: Italy Focus",
             "items": [
-                "Iran: Escalation Risk. USA considera opzioni militari/covert. Repressione interna in aumento. Potenziale instabilit\u00e0 regionale con impatti su flussi energetici e sicurezza Italia.",
-                "Ucraina: Intensificazione conflitto. Attacchi russi su Kharkiv. Interessi USA su litio ucraino potenziano partnership strategica, rilevanza per approvvigionamento materie prime critiche per Italia.",
-                "USA: Politica estera aggressiva. Trump (in caso di rielezione) minaccia dazi su Iran. Incontro con leader opposizione venezuelana indica linea dura verso regimi considerati ostili. Taiwan: Consenso commerciale con USA implica ripercussioni su catene approvvigionamento globali e rapporti con Cina."
+                "Iran: Minaccia Trump su repressione proteste. Implicazioni su accordo nucleare e stabilit\u00e0 regionale, impatto potenziale su prezzi energia per Italia.",
+                "Ucraina: Raid russi su infrastrutture civili. Aumento pressione migratoria e rischi per approvvigionamento energetico italiano.",
+                "Cina: Surplus commerciale record. Conferma ruolo dominante export cinese, sfida per competitivit\u00e0 imprese italiane e bilancia commerciale UE."
             ]
         }
     ],
     "monograph": {
-        "title": "Geopolitica Globale nel 2026: Convergenze e Divergenze Strategiche",
+        "title": "Analisi Strategica Multidimensionale: Implicazioni Geopolitiche e Tecnologiche delle Dinamiche Globali del 2026",
         "author": "Marte Research Dept.",
-        "date": "13 Jan 2026",
+        "date": "14 Jan 2026",
         "readTime": "12 min read",
-        "content": "<h3>Introduzione (Abstract)</h3>\n<p>Il panorama geopolitico del 2026 \u00e8 caratterizzato da una complessa interazione di sfide economiche, tensioni politiche e progressi tecnologici. Questo documento analizza alcune delle tendenze pi\u00f9 significative, esaminando le implicazioni per la stabilit\u00e0 globale e le opportunit\u00e0 strategiche per Marte Strategic Horizon. Le aree di interesse includono la competizione tra Stati Uniti e Cina, le crisi regionali in Europa orientale e Medio Oriente, e l'impatto dell'intelligenza artificiale e delle nuove tecnologie energetiche.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Le tensioni tra <a href='https://formiche.net/2026/01/cina-europa-auto-elettriche-byd-batterie/'>Europa e Cina</a> nel settore automobilistico, in particolare riguardo alle auto elettriche, riflettono una competizione economica pi\u00f9 ampia. Le politiche protezionistiche, come i potenziali <a href='https://www.ilsole24ore.com/art/iran-oltre-10700-arresti-trump-dazi-25percento-tutti-partner-commerciali-teheran-AIZCHUq'>dazi</a> proposti da Trump, esacerbano queste tensioni e rischiano di frammentare ulteriormente il commercio globale. La crisi in Ucraina, con la <a href='https://www.ilsole24ore.com/art/ucraina-missili-kiev-attacco-notturno-kharkiv-vittime-AIGIMUq'>cessione di giacimenti di litio ad aziende statunitensi</a>, evidenzia la competizione per le risorse strategiche e le implicazioni geopolitiche dei conflitti regionali. La situazione in <a href='https://www.bbc.com/news/articles/c3ve572edzqo?at_medium=RSS&at_campaign=rss'>Iran</a>, con arresti di massa e potenziali interventi esterni, rimane un punto critico, aggravato dalle strategie di Trump che includono l'uso di <a href='https://www.startmag.it/innovazione/trump-punta-su-starlink-di-musk-per-liberare-internet-in-iran/'>Starlink di Musk</a> per aggirare il controllo governativo su internet e potenziali opzioni militari <a href='https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss'>militari</a>.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'avanzamento dell'intelligenza artificiale sta trasformando diversi settori, dall'energia alla sanit\u00e0. Le <a href='https://www.startmag.it/energia/meta-energia-nucleare-6-gigawatt/'>Big Tech</a> stanno investendo nell'energia nucleare per alimentare i loro data center, indicando una crescente domanda di energia e una potenziale svolta verso fonti di energia pi\u00f9 pulite. In campo medico, la <a href='https://www.insalutenews.it/in-salute/tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh/?utm_source=rss&utm_medium=rss&utm_campaign=tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh'>chirurgia di precisione</a> con tecnologie avanzate segna un progresso significativo nel trattamento dei tumori. Tuttavia, la crescente dipendenza dall'IA solleva preoccupazioni sulla sua <a href='https://formiche.net/2026/01/piu-nemica-che-alleata-la-paura-dei-media-sullia/'>influenza</a> e potenziale uso improprio. Sul fronte della sicurezza europea, il <a href='https://formiche.net/2026/01/centomila-uomini-per-lautonomia-europea-il-piano-di-kubilius/'>piano</a> di creare una forza di intervento di 100.000 uomini dimostra un impegno per una maggiore autonomia strategica.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Il 2026 si presenta come un anno di transizione, con sfide geopolitiche significative e opportunit\u00e0 tecnologiche emergenti. La capacit\u00e0 di navigare queste complessit\u00e0 richieder\u00e0 una pianificazione strategica oculata e una cooperazione internazionale efficace. Per Marte Strategic Horizon, \u00e8 fondamentale monitorare attentamente gli sviluppi in corso, valutare i rischi e sfruttare le opportunit\u00e0 per garantire la stabilit\u00e0 e la prosperit\u00e0 a lungo termine. La continua attivit\u00e0 sismica in <a href='https://www.insalutenews.it/in-salute/litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse/?utm_source=rss&utm_medium=rss&utm_campaign=litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse'>Italia</a>, sebbene senza grandi scosse al momento, merita monitoraggio costante.</p>",
+        "content": "<h3>Introduzione</h3>\n<p>Il presente studio si propone di analizzare il complesso scenario geopolitico e tecnologico del gennaio 2026, con un focus particolare sulle implicazioni a lungo termine per le strategie di sviluppo su Marte. L'analisi integrer\u00e0 dati provenienti da diverse aree, tra cui la politica internazionale, l'innovazione tecnologica e le dinamiche socio-economiche, al fine di fornire una visione prospettica e informata.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>La persistente instabilit\u00e0 in Ucraina, evidenziata dai recenti <a href='https://www.ilsole24ore.com/art/ucraina-raid-russo-kryvyi-rih-45mila-persone-senza-elettricita-AISkiZr'>raid russi</a> su infrastrutture critiche, continua a rappresentare una sfida significativa per la sicurezza europea e globale. Parallelamente, le tensioni in Medio Oriente, con particolare riferimento alla situazione a <a href='https://formiche.net/2026/01/venezuela-iran-ucraina-gaza-tajani-spiega-limpegno-del-governo'>Gaza</a> e il ritiro di <a href='https://www.ilsole24ore.com/art/israele-si-ritira-sette-agenzie-onu-oltre-100-bambini-uccisi-gaza-inizio-tregua-AId3Soq'>Israele da agenzie ONU</a>, acuiscono ulteriormente le preoccupazioni per la stabilit\u00e0 regionale. La situazione in Iran, caratterizzata da <a href='https://formiche.net/2026/01/proteste-iran/'>proteste interne</a> e la minaccia di <a href='https://www.bbc.com/news/articles/cqj2qgw8w08o?at_medium=RSS&at_campaign=rss'>azioni severe</a> contro i manifestanti, rappresenta un'ulteriore fonte di incertezza, aggravata dalle potenziali implicazioni delle politiche commerciali protezionistiche, come quelle precedentemente implementate da <a href='https://www.startmag.it/primo-piano/trump-dazio-iran/'>Trump nei confronti dei paesi che intrattengono rapporti con l'Iran</a>. Emerge quindi la necessit\u00e0 di analizzare le radici storiche delle tensioni in <a href='https://formiche.net/2026/01/iran-storia-proteste/'>Iran</a>, risalenti al 1979.\n</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte tecnologico, l'avanzamento dell'<a href='https://www.startmag.it/innovazione/come-funziona-e-chi-ce-dietro-lintelligenza-artificiale-che-sara-usata-dai-medici-di-famiglia/'>intelligenza artificiale</a> (IA) nel settore sanitario promette di rivoluzionare la diagnosi e il trattamento delle malattie. Tuttavia, \u00e8 fondamentale valutare attentamente le implicazioni etiche e sociali derivanti dall'implementazione di tali tecnologie. Nel settore aerospaziale, lo sviluppo di <a href='https://phys.org/news/2026-01-orbiting-factories-future.html'>fabbriche orbitali</a> potrebbe aprire nuove prospettive per la produzione di materiali e componenti in condizioni di microgravit\u00e0. Inoltre, la <a href='https://www.insalutenews.it/in-salute/robotica-spaziale-scienziati-italiani-trasformano-il-vuoto-in-alleato-per-missioni-piu-efficienti/?utm_source=rss&utm_medium=rss&utm_campaign=robotica-spaziale-scienziati-italiani-trasformano-il-vuoto-in-alleato-per-missioni-piu-efficienti'>robotica spaziale</a> e le soluzioni innovative per missioni pi\u00f9 efficienti rappresentano aree di interesse strategico per lo sviluppo di infrastrutture su Marte. Da non sottovalutare l'utilizzo di <a href='https://formiche.net/2026/01/nuovi-droni-russi-nei-cieli-ucraini-ecco-cosa-sappiamo-del-geran-5/'>droni russi</a> nel conflitto ucraino che, seppur in ambito bellico, possono dare spunti per usi civili su Marte.\n</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Le dinamiche globali del 2026 presentano sia sfide che opportunit\u00e0 per lo sviluppo di Marte. La persistente instabilit\u00e0 geopolitica richiede un approccio cauto e diversificato, con un focus sulla sicurezza e l'autosufficienza. L'innovazione tecnologica offre nuove possibilit\u00e0 per superare le sfide ambientali e logistiche legate alla colonizzazione di Marte, ma \u00e8 essenziale valutare attentamente le implicazioni etiche e sociali di tali tecnologie. In particolare, gli sviluppi nel campo della <a href='https://www.insalutenews.it/in-salute/proteine-ingegnerizzate-per-fermare-il-declino-cognitivo-premio-internazionale-al-prof-cristian-ripoli/?utm_source=rss&utm_medium=rss&utm_campaign=proteine-ingegnerizzate-per-fermare-il-declino-cognitivo'>ricerca medica</a>, come lo studio delle proteine ingegnerizzate, e la comprensione del <a href='https://www.insalutenews.it/in-salute/il-linguaggio-nascosto-degli-astrociti-una-scoperta-italia-usa-apre-nuove-strade-contro-alzheimer-e-tumori-cerebrali/?utm_source=rss&utm_medium=rss&utm_campaign=il-linguaggio-nascosto-degli-astrociti-una-scoperta-italia-usa-apre-nuove-strade-contro-alzheimer-e-tumori-cerebrali'>linguaggio degli astrociti</a>, potrebbero rivelarsi cruciali per la salute e il benessere dei futuri coloni marziani. La missione di <a href='https://www.startmag.it/mondo/missione-meloni-giappone-corea-oman/'>Meloni in Giappone, Corea e Oman</a>, pur essendo focalizzata su obiettivi terrestri, evidenzia l'importanza della cooperazione internazionale per affrontare le sfide globali, un principio che pu\u00f2 essere esteso anche alla colonizzazione di Marte.\n</p>",
         "references": [
-            "Vi racconto le grane in Germania sulle grandi opere | URL: https://www.startmag.it/mondo/germania-rinvio-stuttgart-21/",
-            "Perch\u00e9 Trump perder\u00e0 la guerra legale contro Powell della Fed. Report Reuters | URL: https://www.startmag.it/economia/guerra-legale-trump-powell-fed/",
-            "Chi a sinistra dice S\u00ec al referendum sulla giustizia | URL: https://www.startmag.it/mondo/sinistra-si-referendum-giustizia/",
-            "Trump punta su Starlink di Musk per liberare internet in Iran | URL: https://www.startmag.it/innovazione/trump-punta-su-starlink-di-musk-per-liberare-internet-in-iran/",
-            "Non solo Meta: le Big Tech puntano sul nucleare per l\u2019Ia | URL: https://www.startmag.it/energia/meta-energia-nucleare-6-gigawatt/",
-            "Bene la liberazione degli italiani in Venezuela, ma non basta. La versione di Arditti | URL: https://formiche.net/2026/01/venezuela-trentini-liberazione-regime/",
-            "Europa e Cina, prove tecniche di disgelo sulle quattro ruote | URL: https://formiche.net/2026/01/cina-europa-auto-elettriche-byd-batterie/",
-            "Centomila uomini per l\u2019autonomia europea? Il piano di Kubilius | URL: https://formiche.net/2026/01/centomila-uomini-per-lautonomia-europea-il-piano-di-kubilius/",
-            "Pi\u00f9 nemica che alleata. La paura dei media sull\u2019IA | URL: https://formiche.net/2026/01/piu-nemica-che-alleata-la-paura-dei-media-sullia/",
-            "Una Davos formato Trump. Ecco la pattuglia americana al Forum | URL: https://formiche.net/2026/01/una-davos-formato-trump-ecco-la-pattuglia-americana-al-forum/",
-            "Racial bias is at play in overrepresentation of Black youth in Canadian child welfare systems | URL: https://phys.org/news/2026-01-racial-bias-play-overrepresentation-black.html",
-            "Image: Artist's concept of a white dwarf star | URL: https://phys.org/news/2026-01-image-artist-concept-white-dwarf.html",
-            "Oak-killing beetle significantly expanding range in SoCal | URL: https://phys.org/news/2026-01-oak-beetle-significantly-range-socal.html",
-            "Happiness, autonomy and wealth: Worldwide analysis reveals a nuanced relationship | URL: https://phys.org/news/2026-01-happiness-autonomy-wealth-worldwide-analysis.html",
-            "Plastic pellets known as 'nurdles' are polluting beaches and waterways | URL: https://phys.org/news/2026-01-plastic-pellets-nurdles-polluting-beaches.html",
-            "Rischio eruzione basso, ma non trascurabile. Il futuro dei Campi Flegrei secondo INGV | URL: https://www.insalutenews.it/in-salute/rischio-eruzione-basso-ma-non-trascurabile-il-futuro-dei-campi-flegrei-secondo-ingv/?utm_source=rss&utm_medium=rss&utm_campaign=rischio-eruzione-basso-ma-non-trascurabile-il-futuro-dei-campi-flegrei-secondo-ingv",
-            "Diabete e buoni propositi: ecco perch\u00e9 le scorciatoie non funzionano | URL: https://www.insalutenews.it/in-salute/diabete-e-buoni-propositi-ecco-perche-le-scorciatoie-non-funzionano/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-e-buoni-propositi-ecco-perche-le-scorciatoie-non-funzionano",
-            "L\u2019Italia trema ogni 33 minuti: nel 2025 oltre 15.700 terremoti, ma senza grandi scosse | URL: https://www.insalutenews.it/in-salute/litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse/?utm_source=rss&utm_medium=rss&utm_campaign=litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse",
-            "Tumori ginecologici, il Gemelli segna un primato mondiale: debutta la chirurgia di precisione con Van Gogh | URL: https://www.insalutenews.it/in-salute/tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh/?utm_source=rss&utm_medium=rss&utm_campaign=tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh",
-            "Cure palliative, ASL Roma 5 rafforza l\u2019assistenza: operativa la nuova UOSD Hospice | URL: https://www.insalutenews.it/in-salute/cure-palliative-asl-roma-5-rafforza-lassistenza-operativa-la-nuova-uosd-hospice/?utm_source=rss&utm_medium=rss&utm_campaign=cure-palliative-asl-roma-5-rafforza-lassistenza-operativa-la-nuova-uosd-hospice",
-            "Trump briefed on military and covert options for Iran, sources say | URL: https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss",
-            "'They just kept killing': Eyewitnesses describe deadly crackdown in Iran | URL: https://www.bbc.com/news/articles/cvgp70ynx1po?at_medium=RSS&at_campaign=rss",
-            "'We were tricked': How one woman lures foreign men to fight on Russia's front line | URL: https://www.bbc.com/news/articles/ce9yv4gmn9lo?at_medium=RSS&at_campaign=rss",
-            "Lyse Doucet: Iran's rulers face biggest challenge since 1979 revolution | URL: https://www.bbc.com/news/articles/c3ve572edzqo?at_medium=RSS&at_campaign=rss",
-            "Trump to meet Venezuelan opposition leader Machado at the White House | URL: https://www.bbc.com/news/articles/cr7jzpr95yvo?at_medium=RSS&at_campaign=rss",
-            "Ucraina, attacco russo su Kharkiv. Giacimento di litio ceduto ad aziende Usa | URL: https://www.ilsole24ore.com/art/ucraina-missili-kiev-attacco-notturno-kharkiv-vittime-AIGIMUq",
-            "Iran,  oltre 10.700 arresti. Trump: dazi del 25% per tutti i partner commerciali di Teheran | URL: https://www.ilsole24ore.com/art/iran-oltre-10700-arresti-trump-dazi-25percento-tutti-partner-commerciali-teheran-AIZCHUq",
-            "Taiwan: \u00abConsenso generale con gli Usa sul commercio\u00bb | URL: https://www.ilsole24ore.com/art/taiwan-consenso-generale-gli-usa-commercio-AIqt6Tq",
-            "Usa a Onu condannano lancio di missile russo Oreshnik in Ucraina | URL: https://www.ilsole24ore.com/art/usa-onu-condannano-lancio-missile-russo-oreshnik-ucraina-AISMDKq",
-            "Merz in India: focus su commercio e alleanze strategiche | URL: https://www.ilsole24ore.com/art/merz-india-focus-commercio-e-alleanze-strategiche-AItx4up"
+            "Tutti i fini della missione di Meloni in Giappone, Corea e Oman | URL: https://www.startmag.it/mondo/missione-meloni-giappone-corea-oman/",
+            "Iran: le proteste sono salutari ma l\u2019opposizione \u00e8 debole | URL: https://www.startmag.it/mondo/proteste-iran/",
+            "Trump colpisce i paesi che fanno affari con l\u2019Iran: ecco quali sono | URL: https://www.startmag.it/primo-piano/trump-dazio-iran/",
+            "Come funziona e chi c\u2019\u00e8 dietro l\u2019Intelligenza artificiale che sar\u00e0 usata dai medici di famiglia | URL: https://www.startmag.it/innovazione/come-funziona-e-chi-ce-dietro-lintelligenza-artificiale-che-sara-usata-dai-medici-di-famiglia/",
+            "Nuovi droni russi nei cieli ucraini. Ecco cosa sappiamo del Geran-5 | URL: https://formiche.net/2026/01/nuovi-droni-russi-nei-cieli-ucraini-ecco-cosa-sappiamo-del-geran-5/",
+            "Venezuela, Iran, Ucraina, Gaza. Tajani spiega l\u2019impegno del governo | URL: https://formiche.net/2026/01/venezuela-iran-ucraina-gaza-tajani-spiega-limpegno-del-governo/",
+            "Chi protesta e contro chi? Cristiano racconta l\u2019Iran dal 1979 a oggi | URL: https://formiche.net/2026/01/iran-storia-proteste/",
+            "The orbiting factories of the future | URL: https://phys.org/news/2026-01-orbiting-factories-future.html",
+            "Robotica spaziale, scienziati italiani trasformano il vuoto in alleato per missioni pi\u00f9 efficienti | URL: https://www.insalutenews.it/in-salute/robotica-spaziale-scienziati-italiani-trasformano-il-vuoto-in-alleato-per-missioni-piu-efficienti/?utm_source=rss&utm_medium=rss&utm_campaign=robotica-spaziale-scienziati-italiani-trasformano-il-vuoto-in-alleato-per-missioni-piu-efficienti",
+            "Proteine ingegnerizzate per fermare il declino cognitivo: premio internazionale al prof. Cristian Ripoli | URL: https://www.insalutenews.it/in-salute/proteine-ingegnerizzate-per-fermare-il-declino-cognitivo-premio-internazionale-al-prof-cristian-ripoli/?utm_source=rss&utm_medium=rss&utm_campaign=proteine-ingegnerizzate-per-fermare-il-declino-cognitivo",
+            "Il linguaggio nascosto degli astrociti: una scoperta Italia-USA apre nuove strade contro Alzheimer e tumori cerebrali | URL: https://www.insalutenews.it/in-salute/il-linguaggio-nascosto-degli-astrociti-una-scoperta-italia-usa-apre-nuove-strade-contro-alzheimer-e-tumori-cerebrali/?utm_source=rss&utm_medium=rss&utm_campaign=il-linguaggio-nascosto-degli-astrociti-una-scoperta-italia-usa-apre-nuove-strade-contro-alzheimer-e-tumori-cerebrali",
+            "Trump vows 'very strong action' if Iran executes protesters | URL: https://www.bbc.com/news/articles/cqj2qgw8w08o?at_medium=RSS&at_campaign=rss",
+            "Ucraina, raid russo su Kryvyi Rih: 45mila persone senza elettricit\u00e0 | URL: https://www.ilsole24ore.com/art/ucraina-raid-russo-kryvyi-rih-45mila-persone-senza-elettricita-AISkiZr",
+            "Israele si ritira da sette agenzie Onu. Oltre 100 bambini uccisi a Gaza da inizio tregua | URL: https://www.ilsole24ore.com/art/israele-si-ritira-sette-agenzie-onu-oltre-100-bambini-uccisi-gaza-inizio-tregua-AId3Soq"
         ]
     },
     "archive": [
+        {
+            "title": "Geopolitica Globale nel 2026: Convergenze e Divergenze Strategiche",
+            "author": "Marte Research Dept.",
+            "date": "13 Jan 2026",
+            "readTime": "12 min read",
+            "content": "<h3>Introduzione (Abstract)</h3>\n<p>Il panorama geopolitico del 2026 \u00e8 caratterizzato da una complessa interazione di sfide economiche, tensioni politiche e progressi tecnologici. Questo documento analizza alcune delle tendenze pi\u00f9 significative, esaminando le implicazioni per la stabilit\u00e0 globale e le opportunit\u00e0 strategiche per Marte Strategic Horizon. Le aree di interesse includono la competizione tra Stati Uniti e Cina, le crisi regionali in Europa orientale e Medio Oriente, e l'impatto dell'intelligenza artificiale e delle nuove tecnologie energetiche.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Le tensioni tra <a href='https://formiche.net/2026/01/cina-europa-auto-elettriche-byd-batterie/'>Europa e Cina</a> nel settore automobilistico, in particolare riguardo alle auto elettriche, riflettono una competizione economica pi\u00f9 ampia. Le politiche protezionistiche, come i potenziali <a href='https://www.ilsole24ore.com/art/iran-oltre-10700-arresti-trump-dazi-25percento-tutti-partner-commerciali-teheran-AIZCHUq'>dazi</a> proposti da Trump, esacerbano queste tensioni e rischiano di frammentare ulteriormente il commercio globale. La crisi in Ucraina, con la <a href='https://www.ilsole24ore.com/art/ucraina-missili-kiev-attacco-notturno-kharkiv-vittime-AIGIMUq'>cessione di giacimenti di litio ad aziende statunitensi</a>, evidenzia la competizione per le risorse strategiche e le implicazioni geopolitiche dei conflitti regionali. La situazione in <a href='https://www.bbc.com/news/articles/c3ve572edzqo?at_medium=RSS&at_campaign=rss'>Iran</a>, con arresti di massa e potenziali interventi esterni, rimane un punto critico, aggravato dalle strategie di Trump che includono l'uso di <a href='https://www.startmag.it/innovazione/trump-punta-su-starlink-di-musk-per-liberare-internet-in-iran/'>Starlink di Musk</a> per aggirare il controllo governativo su internet e potenziali opzioni militari <a href='https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss'>militari</a>.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'avanzamento dell'intelligenza artificiale sta trasformando diversi settori, dall'energia alla sanit\u00e0. Le <a href='https://www.startmag.it/energia/meta-energia-nucleare-6-gigawatt/'>Big Tech</a> stanno investendo nell'energia nucleare per alimentare i loro data center, indicando una crescente domanda di energia e una potenziale svolta verso fonti di energia pi\u00f9 pulite. In campo medico, la <a href='https://www.insalutenews.it/in-salute/tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh/?utm_source=rss&utm_medium=rss&utm_campaign=tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh'>chirurgia di precisione</a> con tecnologie avanzate segna un progresso significativo nel trattamento dei tumori. Tuttavia, la crescente dipendenza dall'IA solleva preoccupazioni sulla sua <a href='https://formiche.net/2026/01/piu-nemica-che-alleata-la-paura-dei-media-sullia/'>influenza</a> e potenziale uso improprio. Sul fronte della sicurezza europea, il <a href='https://formiche.net/2026/01/centomila-uomini-per-lautonomia-europea-il-piano-di-kubilius/'>piano</a> di creare una forza di intervento di 100.000 uomini dimostra un impegno per una maggiore autonomia strategica.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Il 2026 si presenta come un anno di transizione, con sfide geopolitiche significative e opportunit\u00e0 tecnologiche emergenti. La capacit\u00e0 di navigare queste complessit\u00e0 richieder\u00e0 una pianificazione strategica oculata e una cooperazione internazionale efficace. Per Marte Strategic Horizon, \u00e8 fondamentale monitorare attentamente gli sviluppi in corso, valutare i rischi e sfruttare le opportunit\u00e0 per garantire la stabilit\u00e0 e la prosperit\u00e0 a lungo termine. La continua attivit\u00e0 sismica in <a href='https://www.insalutenews.it/in-salute/litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse/?utm_source=rss&utm_medium=rss&utm_campaign=litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse'>Italia</a>, sebbene senza grandi scosse al momento, merita monitoraggio costante.</p>",
+            "references": [
+                "Vi racconto le grane in Germania sulle grandi opere | URL: https://www.startmag.it/mondo/germania-rinvio-stuttgart-21/",
+                "Perch\u00e9 Trump perder\u00e0 la guerra legale contro Powell della Fed. Report Reuters | URL: https://www.startmag.it/economia/guerra-legale-trump-powell-fed/",
+                "Chi a sinistra dice S\u00ec al referendum sulla giustizia | URL: https://www.startmag.it/mondo/sinistra-si-referendum-giustizia/",
+                "Trump punta su Starlink di Musk per liberare internet in Iran | URL: https://www.startmag.it/innovazione/trump-punta-su-starlink-di-musk-per-liberare-internet-in-iran/",
+                "Non solo Meta: le Big Tech puntano sul nucleare per l\u2019Ia | URL: https://www.startmag.it/energia/meta-energia-nucleare-6-gigawatt/",
+                "Bene la liberazione degli italiani in Venezuela, ma non basta. La versione di Arditti | URL: https://formiche.net/2026/01/venezuela-trentini-liberazione-regime/",
+                "Europa e Cina, prove tecniche di disgelo sulle quattro ruote | URL: https://formiche.net/2026/01/cina-europa-auto-elettriche-byd-batterie/",
+                "Centomila uomini per l\u2019autonomia europea? Il piano di Kubilius | URL: https://formiche.net/2026/01/centomila-uomini-per-lautonomia-europea-il-piano-di-kubilius/",
+                "Pi\u00f9 nemica che alleata. La paura dei media sull\u2019IA | URL: https://formiche.net/2026/01/piu-nemica-che-alleata-la-paura-dei-media-sullia/",
+                "Una Davos formato Trump. Ecco la pattuglia americana al Forum | URL: https://formiche.net/2026/01/una-davos-formato-trump-ecco-la-pattuglia-americana-al-forum/",
+                "Racial bias is at play in overrepresentation of Black youth in Canadian child welfare systems | URL: https://phys.org/news/2026-01-racial-bias-play-overrepresentation-black.html",
+                "Image: Artist's concept of a white dwarf star | URL: https://phys.org/news/2026-01-image-artist-concept-white-dwarf.html",
+                "Oak-killing beetle significantly expanding range in SoCal | URL: https://phys.org/news/2026-01-oak-beetle-significantly-range-socal.html",
+                "Happiness, autonomy and wealth: Worldwide analysis reveals a nuanced relationship | URL: https://phys.org/news/2026-01-happiness-autonomy-wealth-worldwide-analysis.html",
+                "Plastic pellets known as 'nurdles' are polluting beaches and waterways | URL: https://phys.org/news/2026-01-plastic-pellets-nurdles-polluting-beaches.html",
+                "Rischio eruzione basso, ma non trascurabile. Il futuro dei Campi Flegrei secondo INGV | URL: https://www.insalutenews.it/in-salute/rischio-eruzione-basso-ma-non-trascurabile-il-futuro-dei-campi-flegrei-secondo-ingv/?utm_source=rss&utm_medium=rss&utm_campaign=rischio-eruzione-basso-ma-non-trascurabile-il-futuro-dei-campi-flegrei-secondo-ingv",
+                "Diabete e buoni propositi: ecco perch\u00e9 le scorciatoie non funzionano | URL: https://www.insalutenews.it/in-salute/diabete-e-buoni-propositi-ecco-perche-le-scorciatoie-non-funzionano/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-e-buoni-propositi-ecco-perche-le-scorciatoie-non-funzionano",
+                "L\u2019Italia trema ogni 33 minuti: nel 2025 oltre 15.700 terremoti, ma senza grandi scosse | URL: https://www.insalutenews.it/in-salute/litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse/?utm_source=rss&utm_medium=rss&utm_campaign=litalia-trema-ogni-33-minuti-nel-2025-oltre-15-700-terremoti-ma-senza-grandi-scosse",
+                "Tumori ginecologici, il Gemelli segna un primato mondiale: debutta la chirurgia di precisione con Van Gogh | URL: https://www.insalutenews.it/in-salute/tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh/?utm_source=rss&utm_medium=rss&utm_campaign=tumori-ginecologici-il-gemelli-segna-un-primato-mondiale-debutta-la-chirurgia-di-precisione-con-van-gogh",
+                "Cure palliative, ASL Roma 5 rafforza l\u2019assistenza: operativa la nuova UOSD Hospice | URL: https://www.insalutenews.it/in-salute/cure-palliative-asl-roma-5-rafforza-lassistenza-operativa-la-nuova-uosd-hospice/?utm_source=rss&utm_medium=rss&utm_campaign=cure-palliative-asl-roma-5-rafforza-lassistenza-operativa-la-nuova-uosd-hospice",
+                "Trump briefed on military and covert options for Iran, sources say | URL: https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss",
+                "'They just kept killing': Eyewitnesses describe deadly crackdown in Iran | URL: https://www.bbc.com/news/articles/cvgp70ynx1po?at_medium=RSS&at_campaign=rss",
+                "'We were tricked': How one woman lures foreign men to fight on Russia's front line | URL: https://www.bbc.com/news/articles/ce9yv4gmn9lo?at_medium=RSS&at_campaign=rss",
+                "Lyse Doucet: Iran's rulers face biggest challenge since 1979 revolution | URL: https://www.bbc.com/news/articles/c3ve572edzqo?at_medium=RSS&at_campaign=rss",
+                "Trump to meet Venezuelan opposition leader Machado at the White House | URL: https://www.bbc.com/news/articles/cr7jzpr95yvo?at_medium=RSS&at_campaign=rss",
+                "Ucraina, attacco russo su Kharkiv. Giacimento di litio ceduto ad aziende Usa | URL: https://www.ilsole24ore.com/art/ucraina-missili-kiev-attacco-notturno-kharkiv-vittime-AIGIMUq",
+                "Iran,  oltre 10.700 arresti. Trump: dazi del 25% per tutti i partner commerciali di Teheran | URL: https://www.ilsole24ore.com/art/iran-oltre-10700-arresti-trump-dazi-25percento-tutti-partner-commerciali-teheran-AIZCHUq",
+                "Taiwan: \u00abConsenso generale con gli Usa sul commercio\u00bb | URL: https://www.ilsole24ore.com/art/taiwan-consenso-generale-gli-usa-commercio-AIqt6Tq",
+                "Usa a Onu condannano lancio di missile russo Oreshnik in Ucraina | URL: https://www.ilsole24ore.com/art/usa-onu-condannano-lancio-missile-russo-oreshnik-ucraina-AISMDKq",
+                "Merz in India: focus su commercio e alleanze strategiche | URL: https://www.ilsole24ore.com/art/merz-india-focus-commercio-e-alleanze-strategiche-AItx4up"
+            ]
+        },
         {
             "title": "Analisi Strategica Multidimensionale: Convergenze Geopolitiche, Tecnologiche ed Ambientali nel Mutato Ordine Globale",
             "author": "Marte Research Dept.",
@@ -1289,5 +1312,5 @@ const mshData = {
             ]
         }
     ],
-    "last_update": "13/01/2026 07:21"
+    "last_update": "14/01/2026 07:21"
 };
