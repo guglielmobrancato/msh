@@ -2,27 +2,27 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac 4,280.48",
-            "change": "\u25b2 0.23%",
+            "price": "\u20ac 4,210.59",
+            "change": "\u25b2 1.40%",
             "trend": "up"
         },
         {
             "name": "BITCOIN",
-            "price": "\u20ac 56,528.12",
-            "change": "\u25b2 0.20%",
-            "trend": "up"
+            "price": "\u20ac 55,763.70",
+            "change": "\u25bc 0.16%",
+            "trend": "down"
         },
         {
             "name": "EUR/USD",
             "price": "\u20ac 1.19",
-            "change": "\u25bc 0.12%",
+            "change": "\u25bc 0.16%",
             "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac 54.42",
-            "change": "\u25b2 0.00%",
-            "trend": "up"
+            "price": "\u20ac 52.95",
+            "change": "\u25bc 0.10%",
+            "trend": "down"
         },
         {
             "name": "NASDAQ",
@@ -51,27 +51,27 @@ const mshData = {
     ],
     "sections": [
         {
-            "title": "Intelligence & Think Tank - Sintesi Strategica Italia",
+            "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "Ucraina: Performance elettorale di Vannacci impatta equilibri politici interni; coalizione di Schlein in difficolt\u00e0.",
-                "NATO: Rimodulazione comandi (Napoli/Norfolk) indica crescente ruolo europeo, Italia inclusa, nella difesa continentale.",
-                "Sicurezza: Aumenta l'attenzione su difesa (Taiwan, Alto Nord) e autonomia strategica europea (aiuti militari Ucraina, dipendenza da forniture belliche)."
+                "Riforma Giustizia (Gratteri): Impatto potenziale (positivo?) su consenso governo. Monitorare narrazione.",
+                "Competitivit\u00e0 UE: Divergenze su AI Act e meccanismi ETS/CBAM. Rischio per industria italiana se non allineati.",
+                "Politica Estera: Divisioni interne su supporto a Kyiv (Ucraina) danneggiano credibilit\u00e0 e interessi italiani. Piano Mattei (Africa): Progetti Italia da monitorare per impatto economico e geostrategico."
             ]
         },
         {
-            "title": "Analisi Strategica - Focus Italia",
+            "title": "Quantum Tech & Physics: Impatti Strategici - Italia",
             "items": [
-                "Antartide: Anomalia magnetica indica collisione continentale. Rilevante per modelli geofisici e proiezioni future impatti climatici (considerare impatto su Italia).",
-                "Ansia climatica: Aumento impatti psicologici su popolazione, specie giovani. Valutare strategie di mitigazione (focus su resilienza comunit\u00e0 italiane).",
-                "Foreste cinesi: Quantificati stoccaggio azoto e carbonio. Implicazioni per accordi internazionali sul clima; monitorare impatto indiretto su economia e ambiente italiano."
+                "CO2 in Cina: Dataset alta risoluzione. Implicazioni per accordi globali e competitivit\u00e0 industriale italiana in ottica decarbonizzazione.",
+                "AI Bots & Democrazia: Influenza credenze. Minaccia per stabilit\u00e0 politica italiana, rischio manipolazione elezioni e opinione pubblica.",
+                "Vulcan Rocket: Problemi lancio. Ritardi accesso allo spazio impattano sviluppo tecnologie quantistiche e comunicazioni sicure per l'Italia."
             ]
         },
         {
-            "title": "Sanit\u00e0 & Biotech: Punti Chiave Italia",
+            "title": "Sanit\u00e0 & Biotech - Focus Italia",
             "items": [
-                "Supercalcolo e quantum computing: Investimenti in Italia per l'eccellenza digitale in ambito sanitario (progetti ECHO-TWIN e Q-SUD).",
-                "Oncologia: Avanzamenti nella cura dei tumori biliari (progetto ANITA) e potenziale uso della metformina contro il glioblastoma.",
-                "Diabete & Neonatologia: Approvazione di farmaco per ritardare l'esordio del diabete tipo 1; successo della rete ospedaliera ligure in parto gemellare pretermine."
+                "Diagnosi sepsi: Nuovo valore emocromo promettente per diagnosi precoce, potenzialmente superiore a test tradizionali.",
+                "Qualit\u00e0 aria: ENEA partecipa al consorzio Copernicus per previsioni europee, implicazioni per salute pubblica.",
+                "Disastri naturali: Italia (INGV) e Giappone (NIED) siglano accordo di collaborazione, resilienza e prevenzione."
             ]
         }
     ],
@@ -97,6 +97,27 @@ const mshData = {
         ]
     },
     "archive": [
+        {
+            "title": "Convergenze Geopolitiche e Tecnologiche: Un'Analisi Strategica per Marte Strategic Horizon",
+            "author": "Marte Research Dept.",
+            "date": "12 Feb 2026",
+            "readTime": "12 min read",
+            "content": "<h3>Abstract</h3>\n<p>Questo documento analizza le interconnessioni tra recenti eventi geopolitici e sviluppi tecnologici, valutandone le implicazioni strategiche a lungo termine. L'analisi si concentra su aree chiave come la sicurezza europea, le dinamiche sino-americane, l'innovazione tecnologica in ambito militare e civile, e le tendenze socio-politiche emergenti, con un focus sulla loro potenziale rilevanza per le strategie future di Marte Strategic Horizon.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il panorama geopolitico attuale \u00e8 caratterizzato da una crescente multipolarit\u00e0 e da una competizione strategica intensificata. La <a href='https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/'>guerra in Ucraina</a> ha accelerato la ridefinizione degli equilibri di potere globali, con un ruolo crescente dell'Europa negli aiuti militari. Contestualmente, le tensioni tra <a href='https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/'>Taiwan</a> e la Cina continuano a rappresentare un punto critico, evidenziando la necessit\u00e0 di un rafforzamento delle capacit\u00e0 di difesa.  L'operazione <a href='https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/'>Arctic Sentry</a> dimostra l'importanza strategica della regione artica per la NATO, mentre la Russia continua a sviluppare le sue capacit\u00e0 militari, anche attraverso l'uso di componenti di origine europea <a href='https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/'>nei suoi armamenti</a>. La decisione degli <a href='https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/'>USA di cedere basi NATO</a> come Napoli e Norfolk segnala un potenziale riposizionamento strategico e un maggiore coinvolgimento europeo nella difesa.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'innovazione tecnologica gioca un ruolo sempre pi\u00f9 cruciale nella competizione strategica.  L'Italia sta investendo in <a href='https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/'>start-up con scopo strategico</a>, con Ferrovie dello Stato che si pone come attore chiave in questo processo.  Inoltre, si assiste a partnership innovative come quella tra <a href='https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/'>Fincantieri e Generative Bionics</a> per lo sviluppo di robot saldatori.  Nel settore farmaceutico, la <a href='https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/'>velocit\u00e0</a> nello sviluppo e nella commercializzazione di nuovi farmaci \u00e8 diventata un fattore chiave di competitivit\u00e0. Progressi significativi si registrano anche nella ricerca medica, con nuove prospettive di cura per i <a href='https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari'>tumori biliari</a> e lo sviluppo di farmaci che ritardano l'esordio del <a href='https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio'>diabete di tipo 1</a>.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Gli sviluppi analizzati evidenziano la necessit\u00e0 di un approccio strategico olistico e flessibile. La capacit\u00e0 di adattarsi rapidamente ai cambiamenti geopolitici, di investire in tecnologie emergenti e di promuovere la cooperazione internazionale sar\u00e0 fondamentale per affrontare le sfide future.  La crescente importanza della <a href='https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/'>crescita e degli investimenti nelle start up</a> con scopo strategico indica un cambio di paradigma verso l'innovazione interna e la ricerca e sviluppo autonomi. Le implicazioni di questi trend per le strategie di Marte Strategic Horizon sono significative e richiedono un'attenta valutazione delle opportunit\u00e0 e dei rischi emergenti.</p>\n\n<h3>Bibliografia</h3>\n<ul>\n<li>Ucraina: la marcetta di Vannacci e la figuraccia del campo largo di Schlein | URL: https://www.startmag.it/mondo/ucraina-voto-parlamentare-vannacci-campo-largo/</li>\n<li>Ipo tedesche: numeri fiacchi, i settori trainanti e le tentazioni americane | URL: https://www.startmag.it/economia/ipo-germania-dati/</li>\n<li>Ucraina, ecco come l\u2019Europa ha sostituito gli Usa negli aiuti militari. Rapporto Kiel Institute | URL: https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/</li>\n<li>Ecco come Taiwan vuole rafforzare la sua Marina contro la Cina | URL: https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/</li>\n<li>Nato, perch\u00e9 gli Usa cedono Napoli e Norfolk. Il peso dell\u2019Italia e il nuovo pilastro europeo. L\u2019analisi di Marrone (Iai) | URL: https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/</li>\n<li>Arctic Sentry, al via la nuova operazione Nato nell\u2019Alto Nord. Cosa implica | URL: https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/</li>\n<li>Crescita e investimenti nelle start up con scopo strategico. La scelta di Ferrovie spiegata da Pietrucci | URL: https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/</li>\n<li>I cannoni di Mosca parlano (ancora) europeo. Cosa svela il report di Frontintelligence Insight | URL: https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/</li>\n<li>Un robot saldatore per Fincantieri. Ecco la partnership con Generative Bionics | URL: https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/</li>\n<li>Farmaceutica, la competitivit\u00e0 oggi si misura sulla velocit\u00e0. Il monito di Ricks (Lilly) | URL: https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/</li>\n<li>Dalla biologia molecolare alle terapie mirate: ANITA apre nuove prospettive di cura per i tumori biliari | URL: https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari</li>\n<li>Diabete tipo 1, arriva il farmaco che ritarda l\u2019esordio della malattia nei soggetti a rischio | URL: https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio</li>\n</ul>",
+            "references": [
+                "https://www.startmag.it/mondo/ucraina-voto-parlamentare-vannacci-campo-largo/",
+                "https://www.startmag.it/economia/ipo-germania-dati/",
+                "https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/",
+                "https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/",
+                "https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/",
+                "https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/",
+                "https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/",
+                "https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/",
+                "https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/",
+                "https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/",
+                "https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari",
+                "https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio"
+            ]
+        },
         {
             "title": "Geopolitica Globale: Convergenze e Divergenze Strategiche nel Febbraio 2026",
             "author": "Marte Research Dept.",
@@ -1278,46 +1299,7 @@ const mshData = {
                 "Fonte Afp, \u00abesplosione in una moschea in Nigeria, almeno 7 morti\u00bb | URL: https://www.ilsole24ore.com/art/fonte-afp-esplosione-una-moschea-nigeria-almeno-7-morti-AIxqJMZ",
                 "Quattordici Paesi, compresa l\u2019Italia, condannano i nuovi insediamenti in Cisgiordania | URL: https://www.ilsole24ore.com/art/fase-due-bloccata-hamas-continui-attacchi-tel-aviv-israele-violano-tregua-AIuE2KZ"
             ]
-        },
-        {
-            "title": "Geopolitica Terrestre del 2025: Un'Analisi Strategica per Marte Strategic Horizon",
-            "author": "Marte Research Dept.",
-            "date": "24 Dec 2025",
-            "readTime": "12 min read",
-            "content": "<h3>Abstract</h3>\n<p>Questo documento analizza gli sviluppi geopolitici del 2025 sulla Terra, focalizzandosi sulle dinamiche di potere tra le principali nazioni e le implicazioni per la strategia a lungo termine di Marte Strategic Horizon. L'analisi considera gli aspetti economici, tecnologici, militari e sociali, con un'attenzione particolare alle tendenze che potrebbero influenzare la futura colonizzazione e sfruttamento di Marte.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il 2025 si configura come un anno di transizione e crescente incertezza a livello globale. La rivalit\u00e0 tra Stati Uniti e Cina continua a intensificarsi, manifestandosi in diversi ambiti, dalla competizione tecnologica per le <a href='https://formiche.net/2025/12/terre-rare-cina-europa-stati-uniti-minerali/'>terre rare</a> alla crescente militarizzazione, con <a href='https://formiche.net/2025/12/pechino-riempie-i-suoi-silos-e-alza-la-posta-sul-nucleare/'>Pechino</a> che espande il suo arsenale nucleare. L'influenza di figure politiche populiste, come evidenziato dalle azioni dell'ex presidente <a href='https://startmag.it/mondo/groenlandia-tutte-le-ultime-trumpate-di-trump/'>Trump</a>, continua a plasmare le relazioni internazionali, spesso in modo imprevedibile. La guerra in Ucraina persiste, con implicazioni economiche significative per la <a href='https://formiche.net/2025/12/russia-bruegel-economia-sanzioni-idrocarburi-resilienza-stagnazione-putin/'>Russia</a> e per l'Europa.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte tecnologico, si assiste a progressi significativi in diversi settori. In ambito spaziale, l'accordo tra <a href='https://formiche.net/2025/12/officina-stellare-leonardo-asi-satelliti-osservazione-della-terra-9-milioni/'>Officina Stellare e Leonardo</a> per lo sviluppo di satelliti di osservazione della Terra evidenzia l'importanza crescente dello spazio per la sicurezza e il monitoraggio ambientale. Nel settore sanitario, la ricerca scientifica continua a fare passi avanti nella diagnosi e nel trattamento di malattie come il <a href='https://www.insalutenews.it/in-salute/scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale/?utm_source=rss&utm_medium=rss&utm_campaign=scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale'>Parkinson</a>. Tuttavia, l'uso dell'intelligenza artificiale solleva anche preoccupazioni etiche, come dimostra il caso di <a href='https://phys.org/news/2025-12-instacart-ai-pricing-shoppers-prices.html'>Instacart</a> e dei prezzi differenziati.</p>\n\n<p>Dal punto di vista strategico, si osserva un aumento delle tensioni geopolitiche in diverse aree del mondo. Gli <a href='https://www.ilsole24ore.com/art/gli-usa-attaccano-venezuela-e-maduro-all-onu-scontro-diplomatico-russia-e-cina-AIQCkmY'>Stati Uniti</a> continuano a esercitare pressioni su regimi considerati ostili, come il Venezuela, mentre la Cina rafforza la sua presenza militare e economica a livello globale. La situazione in Europa rimane instabile, con la Francia che affronta difficolt\u00e0 nel bilancio statale <a href='https://www.ilsole24ore.com/art/francia-senza-bilancio-parlamento-approva-legge-d-emergenza-AIPoQpY'>Francia senza bilancio</a> e l'Unione Europea che deve affrontare sfide interne e esterne.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Le tendenze osservate nel 2025 suggeriscono un futuro caratterizzato da una crescente competizione tra le grandi potenze, instabilit\u00e0 politica e progressi tecnologici. Per Marte Strategic Horizon, \u00e8 fondamentale monitorare attentamente questi sviluppi, valutando le implicazioni per la sicurezza, l'economia e la governance della futura colonia marziana. In particolare, \u00e8 cruciale diversificare le fonti di approvvigionamento di risorse critiche, sviluppare tecnologie autonome per la sopravvivenza su Marte e stabilire relazioni diplomatiche con diverse nazioni terrestri per garantire un sostegno continuo al progetto marziano. L'importanza di figure come <a href='https://formiche.net/2025/12/giancarlo-giorgetti-la-rivincita-della-prudenza-e-del-rigore-formica-dellanno-2025/'>Giancarlo Giorgetti</a> e la sua visione di prudenza e rigore sottolineano come scelte oculate possano mitigare i rischi e massimizzare le opportunit\u00e0 nel lungo periodo.</p>",
-            "references": [
-                "Truffe: come riconoscerle e come difendersi | URL: https://www.startmag.it/innovazione/truffe-come-riconoscere-e-come-difendersi/",
-                "Limes, il giornale che volle trasformare la forza in scienza | URL: https://www.startmag.it/mondo/limes-il-giornale-che-volle-trasformare-la-forza-in-scienza/",
-                "Roche, tutti i guai tra crollo in borsa, dubbi degli analisti, cause legali e l\u2019ombra del ricatto sui prezzi | URL: https://www.startmag.it/economia/roche-tutti-i-guai-tra-crollo-in-borsa-dubbi-degli-analisti-cause-legali-e-lombra-del-ricatto-sui-prezzi/",
-                "Tutte le Big Pharma che si sono inchinate a Trump | URL: https://www.startmag.it/economia/tutte-le-big-pharma-che-si-sono-inchinate-a-trump/",
-                "Groenlandia, ecco le ultime trumpate di Trump | URL: https://startmag.it/mondo/groenlandia-tutte-le-ultime-trumpate-di-trump/",
-                "Pechino riempie i suoi silos e alza la posta sul nucleare | URL: https://formiche.net/2025/12/pechino-riempie-i-suoi-silos-e-alza-la-posta-sul-nucleare/",
-                "Usa sempre pi\u00f9 liberi dalla Cina sulle terre rare. Mentre l\u2019Europa\u2026 | URL: https://formiche.net/2025/12/terre-rare-cina-europa-stati-uniti-minerali/",
-                "Officina Stellare e Leonardo siglano un\u2019intesa da 9,2 milioni. Tutti i dettagli | URL: https://formiche.net/2025/12/officina-stellare-leonardo-asi-satelliti-osservazione-della-terra-9-milioni/",
-                "Giancarlo Giorgetti, la rivincita della prudenza e del rigore. Formica dell\u2019anno 2025 | URL: https://formiche.net/2025/12/giancarlo-giorgetti-la-rivincita-della-prudenza-e-del-rigore-formica-dellanno-2025/",
-                "Ecco perch\u00e9 la Russia sta per impantanarsi. Report Bruegel | URL: https://formiche.net/2025/12/russia-bruegel-economia-sanzioni-idrocarburi-resilienza-stagnazione-putin/",
-                "Should we smoke salmon using traditional techniques, or should we simply add the flavor? | URL: https://phys.org/news/2025-12-salmon-traditional-techniques-simply-flavor.html",
-                "Instacart ends AI pricing test that charged shoppers different prices for the same items | URL: https://phys.org/news/2025-12-instacart-ai-pricing-shoppers-prices.html",
-                "Is democracy always about truth? Why we may need to loosen our views to heal our divisions | URL: https://phys.org/news/2025-12-democracy-truth-loosen-views-divisions.html",
-                "It's been 25 years since America decided to save the Everglades: Where do we stand? | URL: https://phys.org/news/2025-12-years-america-everglades.html",
-                "Children face punishment because of unaffordable school uniforms, new poll reveals | URL: https://phys.org/news/2025-12-children-unaffordable-school-uniforms-poll.html",
-                "Dieta da combattimento come \u2018farmaco di precisione\u2019 contro il cancro | URL: https://www.insalutenews.it/in-salute/dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro/?utm_source=rss&utm_medium=rss&utm_campaign=dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro",
-                "Salvato prima di nascere: rimossa cisti polmonare gigante con intervento in utero | URL: https://www.insalutenews.it/in-salute/salvato-prima-di-nascere-rimossa-cisti-polmonare-gigante-con-intervento-in-utero/?utm_source=rss&utm_medium=rss&utm_campaign=salvato-prima-di-nascere-rimossa-cisti-polmonare-gigante-con-intervento-in-utero",
-                "GAPS in volo sull\u2019Antartide: Bergamo protagonista nella ricerca dell\u2019antimateria cosmica | URL: https://www.insalutenews.it/in-salute/gaps-in-volo-sullantartide-bergamo-protagonista-nella-ricerca-dellantimateria-cosmica/?utm_source=rss&utm_medium=rss&utm_campaign=gaps-in-volo-sullantartide-bergamo-protagonista-nella-ricerca-dellantimateria-cosmica",
-                "Scoperto nel sangue il \u2018segnale\u2019 del Parkinson: una molecola rivela il danno neuronale | URL: https://www.insalutenews.it/in-salute/scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale/?utm_source=rss&utm_medium=rss&utm_campaign=scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale",
-                "Endoscopia bariatrica, il Galliera protagonista delle nuove linee guida italiane | URL: https://www.insalutenews.it/in-salute/endoscopia-bariatrica-il-galliera-protagonista-delle-nuove-linee-guida-italiane/?utm_source=rss&utm_medium=rss&utm_campaign=endoscopia-bariatrica-il-galliera-protagonista-delle-nuove-linee-guida-italiane",
-                "Email by 'A' from 'Balmoral' asked Ghislaine Maxwell for 'inappropriate friends', Epstein files show | URL: https://www.bbc.com/news/articles/cm28g5exx09o?at_medium=RSS&at_campaign=rss",
-                "Trump trips, a fake video and 10 possible co-conspirators - Takeaways from new Epstein files | URL: https://www.bbc.com/news/articles/c5yj4yvx80do?at_medium=RSS&at_campaign=rss",
-                "Australia to deport British man charged with displaying Nazi symbols | URL: https://www.bbc.com/news/articles/cgke51rzpvro?at_medium=RSS&at_campaign=rss",
-                "US denies visas to ex-EU commissioner and others over social media rules | URL: https://www.bbc.com/news/articles/cp39kngz008o?at_medium=RSS&at_campaign=rss",
-                "Libya's army chief killed in air crash in Turkey | URL: https://www.bbc.com/news/articles/cyvgzyepdqno?at_medium=RSS&at_campaign=rss",
-                "Ucraina, Zelensky: \u00abUsa vogliono la pace\u00bb. Nuova autobomba a Mosca | URL: https://www.ilsole24ore.com/art/ucraina-zelensky-usa-vogliono-pace-nuova-autobomba-mosca-AIDL6zY",
-                "Francia senza bilancio, Parlamento approva legge d\u2019emergenza | URL: https://www.ilsole24ore.com/art/francia-senza-bilancio-parlamento-approva-legge-d-emergenza-AIPoQpY",
-                "Sanzioni Usa contro cinque personalit\u00e0 europee tra cui l\u2019ex commissario Ue Breton | URL: https://www.ilsole24ore.com/art/sanzioni-usa-contro-cinque-personalita-europee-cui-l-ex-commissario-ue-breton-AIFZlnY",
-                "Gli Usa attaccano il Venezuela e Maduro all\u2019Onu. Scontro diplomatico con Russia e Cina | URL: https://www.ilsole24ore.com/art/gli-usa-attaccano-venezuela-e-maduro-all-onu-scontro-diplomatico-russia-e-cina-AIQCkmY",
-                "Truppe a Chicago, no della Corte Suprema (ma Trump le manda a New Orleans) | URL: https://www.ilsole24ore.com/art/sconfitta-trump-corte-suprema-vieta-truppe-chicago-AIj3gkY"
-            ]
         }
     ],
-    "last_update": "12/02/2026 07:46"
+    "last_update": "13/02/2026 07:45"
 };
