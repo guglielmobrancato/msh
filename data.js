@@ -2,26 +2,26 @@ const mshData = {
     "ticker": [
         {
             "name": "GOLD",
-            "price": "\u20ac 4,210.59",
-            "change": "\u25b2 1.40%",
-            "trend": "up"
-        },
-        {
-            "name": "BITCOIN",
-            "price": "\u20ac 55,763.70",
-            "change": "\u25bc 0.16%",
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
             "trend": "down"
         },
         {
+            "name": "BITCOIN",
+            "price": "\u20ac nan",
+            "change": "\u25b2 0.09%",
+            "trend": "up"
+        },
+        {
             "name": "EUR/USD",
-            "price": "\u20ac 1.19",
-            "change": "\u25bc 0.16%",
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
             "trend": "down"
         },
         {
             "name": "OIL",
-            "price": "\u20ac 52.95",
-            "change": "\u25bc 0.10%",
+            "price": "\u20ac nan",
+            "change": "\u25bc nan%",
             "trend": "down"
         },
         {
@@ -53,25 +53,33 @@ const mshData = {
         {
             "title": "Intelligence & Think Tank - Focus Italia",
             "items": [
-                "Riforma Giustizia (Gratteri): Impatto potenziale (positivo?) su consenso governo. Monitorare narrazione.",
-                "Competitivit\u00e0 UE: Divergenze su AI Act e meccanismi ETS/CBAM. Rischio per industria italiana se non allineati.",
-                "Politica Estera: Divisioni interne su supporto a Kyiv (Ucraina) danneggiano credibilit\u00e0 e interessi italiani. Piano Mattei (Africa): Progetti Italia da monitorare per impatto economico e geostrategico."
+                "Giustizia: Dibattito politico ampio, da Gratteri al referendum, con implicazioni sul voto cattolico.",
+                "Politica Interna: Lega post-Vannacci; dinamiche nel rapporto italo-tedesco in Europa, e critiche alla sinistra su temi come le Olimpiadi.",
+                "Politica Economica/Esteri: Piano Mattei sotto esame a due anni dal lancio; implicazioni del de-listing di aziende cinesi dagli USA."
             ]
         },
         {
-            "title": "Quantum Tech & Physics: Impatti Strategici - Italia",
+            "title": "Quantum Tech & Geopolitica: Flash Intelligence",
             "items": [
-                "CO2 in Cina: Dataset alta risoluzione. Implicazioni per accordi globali e competitivit\u00e0 industriale italiana in ottica decarbonizzazione.",
-                "AI Bots & Democrazia: Influenza credenze. Minaccia per stabilit\u00e0 politica italiana, rischio manipolazione elezioni e opinione pubblica.",
-                "Vulcan Rocket: Problemi lancio. Ritardi accesso allo spazio impattano sviluppo tecnologie quantistiche e comunicazioni sicure per l'Italia."
+                "Ricerca quantistica: Progressi su verifica posizione e simulazione mercati finanziari. Potenziali impatti su sicurezza nazionale e strategie economiche in Italia.",
+                "Microbi e resilienza ecosistemi: Comprensione cruciale per affrontare sfide ambientali (siccit\u00e0, alluvioni) in Italia, con particolare attenzione a agricoltura e gestione risorse idriche.",
+                "Avanzamento improvviso ghiacciai: Fenomeno con conseguenze pericolose. Monitoraggio fondamentale per regioni alpine italiane, prevenzione disastri naturali e gestione impatto su infrastrutture."
             ]
         },
         {
-            "title": "Sanit\u00e0 & Biotech - Focus Italia",
+            "title": "Sanit\u00e0 & Biotech: Intelligence Italia",
             "items": [
-                "Diagnosi sepsi: Nuovo valore emocromo promettente per diagnosi precoce, potenzialmente superiore a test tradizionali.",
-                "Qualit\u00e0 aria: ENEA partecipa al consorzio Copernicus per previsioni europee, implicazioni per salute pubblica.",
-                "Disastri naturali: Italia (INGV) e Giappone (NIED) siglano accordo di collaborazione, resilienza e prevenzione."
+                "ENEA nel consorzio Copernicus: Miglioramento previsioni qualit\u00e0 aria in Europa, focus su impatto salute pubblica in Italia.",
+                "Diagnosi precoce sepsi: Nuovi marker ematici promettenti per identificazione rapida, cruciale per riduzione mortalit\u00e0 in Italia.",
+                "INGV e NIED (Giappone): Accordo collaborazione su disastri naturali, potenziamento resilienza e preparazione in Italia."
+            ]
+        },
+        {
+            "title": "Geopolitical Intelligence Briefing - Italy Focus",
+            "items": [
+                "Germania: Ordine mondiale basato su regole in crisi, implicazioni per l'Italia e la sua proiezione internazionale.",
+                "Italia-Africa: Vertice con focus su investimenti e debito, impatto strategico e economico per l'Italia.",
+                "Sicurezza interna UE: Attentato a Parigi, potenziale rischio emulazione in Italia e conseguente rafforzamento misure preventive."
             ]
         }
     ],
@@ -97,6 +105,27 @@ const mshData = {
         ]
     },
     "archive": [
+        {
+            "title": "Convergenze Geopolitiche e Tecnologiche: Un'Analisi Strategica per Marte Strategic Horizon",
+            "author": "Marte Research Dept.",
+            "date": "12 Feb 2026",
+            "readTime": "12 min read",
+            "content": "<h3>Abstract</h3>\n<p>Questo documento analizza le interconnessioni tra recenti eventi geopolitici e sviluppi tecnologici, valutandone le implicazioni strategiche a lungo termine. L'analisi si concentra su aree chiave come la sicurezza europea, le dinamiche sino-americane, l'innovazione tecnologica in ambito militare e civile, e le tendenze socio-politiche emergenti, con un focus sulla loro potenziale rilevanza per le strategie future di Marte Strategic Horizon.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il panorama geopolitico attuale \u00e8 caratterizzato da una crescente multipolarit\u00e0 e da una competizione strategica intensificata. La <a href='https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/'>guerra in Ucraina</a> ha accelerato la ridefinizione degli equilibri di potere globali, con un ruolo crescente dell'Europa negli aiuti militari. Contestualmente, le tensioni tra <a href='https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/'>Taiwan</a> e la Cina continuano a rappresentare un punto critico, evidenziando la necessit\u00e0 di un rafforzamento delle capacit\u00e0 di difesa.  L'operazione <a href='https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/'>Arctic Sentry</a> dimostra l'importanza strategica della regione artica per la NATO, mentre la Russia continua a sviluppare le sue capacit\u00e0 militari, anche attraverso l'uso di componenti di origine europea <a href='https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/'>nei suoi armamenti</a>. La decisione degli <a href='https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/'>USA di cedere basi NATO</a> come Napoli e Norfolk segnala un potenziale riposizionamento strategico e un maggiore coinvolgimento europeo nella difesa.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>L'innovazione tecnologica gioca un ruolo sempre pi\u00f9 cruciale nella competizione strategica.  L'Italia sta investendo in <a href='https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/'>start-up con scopo strategico</a>, con Ferrovie dello Stato che si pone come attore chiave in questo processo.  Inoltre, si assiste a partnership innovative come quella tra <a href='https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/'>Fincantieri e Generative Bionics</a> per lo sviluppo di robot saldatori.  Nel settore farmaceutico, la <a href='https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/'>velocit\u00e0</a> nello sviluppo e nella commercializzazione di nuovi farmaci \u00e8 diventata un fattore chiave di competitivit\u00e0. Progressi significativi si registrano anche nella ricerca medica, con nuove prospettive di cura per i <a href='https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari'>tumori biliari</a> e lo sviluppo di farmaci che ritardano l'esordio del <a href='https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio'>diabete di tipo 1</a>.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Gli sviluppi analizzati evidenziano la necessit\u00e0 di un approccio strategico olistico e flessibile. La capacit\u00e0 di adattarsi rapidamente ai cambiamenti geopolitici, di investire in tecnologie emergenti e di promuovere la cooperazione internazionale sar\u00e0 fondamentale per affrontare le sfide future.  La crescente importanza della <a href='https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/'>crescita e degli investimenti nelle start up</a> con scopo strategico indica un cambio di paradigma verso l'innovazione interna e la ricerca e sviluppo autonomi. Le implicazioni di questi trend per le strategie di Marte Strategic Horizon sono significative e richiedono un'attenta valutazione delle opportunit\u00e0 e dei rischi emergenti.</p>\n\n<h3>Bibliografia</h3>\n<ul>\n<li>Ucraina: la marcetta di Vannacci e la figuraccia del campo largo di Schlein | URL: https://www.startmag.it/mondo/ucraina-voto-parlamentare-vannacci-campo-largo/</li>\n<li>Ipo tedesche: numeri fiacchi, i settori trainanti e le tentazioni americane | URL: https://www.startmag.it/economia/ipo-germania-dati/</li>\n<li>Ucraina, ecco come l\u2019Europa ha sostituito gli Usa negli aiuti militari. Rapporto Kiel Institute | URL: https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/</li>\n<li>Ecco come Taiwan vuole rafforzare la sua Marina contro la Cina | URL: https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/</li>\n<li>Nato, perch\u00e9 gli Usa cedono Napoli e Norfolk. Il peso dell\u2019Italia e il nuovo pilastro europeo. L\u2019analisi di Marrone (Iai) | URL: https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/</li>\n<li>Arctic Sentry, al via la nuova operazione Nato nell\u2019Alto Nord. Cosa implica | URL: https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/</li>\n<li>Crescita e investimenti nelle start up con scopo strategico. La scelta di Ferrovie spiegata da Pietrucci | URL: https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/</li>\n<li>I cannoni di Mosca parlano (ancora) europeo. Cosa svela il report di Frontintelligence Insight | URL: https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/</li>\n<li>Un robot saldatore per Fincantieri. Ecco la partnership con Generative Bionics | URL: https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/</li>\n<li>Farmaceutica, la competitivit\u00e0 oggi si misura sulla velocit\u00e0. Il monito di Ricks (Lilly) | URL: https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/</li>\n<li>Dalla biologia molecolare alle terapie mirate: ANITA apre nuove prospettive di cura per i tumori biliari | URL: https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari</li>\n<li>Diabete tipo 1, arriva il farmaco che ritarda l\u2019esordio della malattia nei soggetti a rischio | URL: https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio</li>\n</ul>",
+            "references": [
+                "https://www.startmag.it/mondo/ucraina-voto-parlamentare-vannacci-campo-largo/",
+                "https://www.startmag.it/economia/ipo-germania-dati/",
+                "https://www.startmag.it/spazio-e-difesa/ucraina-ecco-come-leuropa-ha-sostituito-gli-usa-negli-aiuti-militari-rapporto-kiel-institute/",
+                "https://www.startmag.it/smartcity/ecco-come-taiwan-vuole-rafforzare-la-sua-marina-contro-la-cina/",
+                "https://www.startmag.it/spazio-e-difesa/nato-perche-gli-usa-cedono-napoli-e-norfolk-il-peso-dellitalia-e-il-nuovo-pilastro-europeo-lanalisi-di-marrone-iai/",
+                "https://formiche.net/2026/02/arctic-sentry-al-via-la-nuova-operazione-nato-nellalto-nord-cosa-implica/",
+                "https://formiche.net/2026/02/crescita-e-investimenti-nelle-start-up-con-scopo-strategico-la-scelta-di-ferrovie-spiegata-da-pietrucci/",
+                "https://formiche.net/2026/02/i-cannoni-di-mosca-parlano-ancora-europeo-cosa-svela-il-report-di-frontintelligence-insight/",
+                "https://formiche.net/2026/02/difesa-fincantieri-generative-bionics/",
+                "https://formiche.net/2026/02/farmaceutica-italia-time-to-market-europa-lilly-ricks/",
+                "https://www.insalutenews.it/in-salute/dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari/?utm_source=rss&utm_medium=rss&utm_campaign=dalla-biologia-molecolare-alle-terapie-mirate-anita-apre-nuove-prospettive-di-cura-per-i-tumori-biliari",
+                "https://www.insalutenews.it/in-salute/diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio/?utm_source=rss&utm_medium=rss&utm_campaign=diabete-tipo-1-arriva-il-farmaco-che-ritarda-lesordio-della-malattia-nei-soggetti-a-rischio"
+            ]
+        },
         {
             "title": "Convergenze Geopolitiche e Tecnologiche: Un'Analisi Strategica per Marte Strategic Horizon",
             "author": "Marte Research Dept.",
@@ -1260,46 +1289,7 @@ const mshData = {
                 "Scoperto nel sangue il \u2018segnale\u2019 del Parkinson: una molecola rivela il danno neuronale | URL: https://www.insalutenews.it/in-salute/scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale/?utm_source=rss&utm_medium=rss&utm_campaign=scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale",
                 "US launches deadly strikes against Islamic State in Nigeria, says Trump | URL: https://www.bbc.com/news/articles/cj69j8l918do?at_medium=RSS&at_campaign=rss"
             ]
-        },
-        {
-            "title": "Geopolitica Globale e Innovazione Tecnologica: Implicazioni Strategiche per l'Esplorazione Spaziale del XXI Secolo",
-            "author": "Marte Research Dept.",
-            "date": "25 Dec 2025",
-            "readTime": "12 min read",
-            "content": "<h3>Introduzione</h3>\n<p>Questo studio analizza le dinamiche geopolitiche e le innovazioni tecnologiche emergenti che plasmeranno il contesto operativo delle future missioni spaziali, con particolare attenzione alle implicazioni per l'esplorazione di Marte. L'analisi considera fattori economici, politici, sociali e tecnologici, esaminando come le tensioni globali e i progressi scientifici possano influenzare le strategie e le priorit\u00e0 dell'esplorazione spaziale.</p>\n\n<h3>Analisi del Contesto Storico</h3>\n<p>Il panorama internazionale \u00e8 caratterizzato da una crescente competizione tra blocchi economici e politici. Le tensioni tra gli <a href='https://www.startmag.it/primo-piano/perche-e-sui-visti-il-nuovo-scazzo-fra-trump-e-lue/'>Stati Uniti e l'Unione Europea</a>, esemplificate dalle controversie sui visti, riflettono un pi\u00f9 ampio disallineamento in materia di politiche commerciali e sicurezza. Allo stesso tempo, l'ascesa economica della <a href='https://formiche.net/2025/12/cina-sussidi-auto-byd-mercato-xi-imprese-europa/'>Cina</a>, supportata da politiche di sussidio statale in settori strategici come l'automotive e la tecnologia, rappresenta una sfida per le economie occidentali. Queste dinamiche di potere influenzano direttamente la disponibilit\u00e0 di risorse e la definizione delle priorit\u00e0 nell'ambito della ricerca e dello sviluppo spaziale.</p>\n<p>Inoltre, il conflitto in Ucraina continua a rimodellare le relazioni internazionali e le alleanze strategiche. Il tentativo di alcuni paesi europei, come <a href='https://formiche.net/2025/12/francia-e-germania-riportano-la-russia-nel-sistema-energetico-europeo-il-caso-lingen/'>Francia e Germania, di reintegrare la Russia</a> nel sistema energetico europeo, nonostante le sanzioni, evidenzia la complessit\u00e0 delle interdipendenze globali e il potenziale per cambiamenti imprevisti nell'assetto geopolitico.</p>\n\n<h3>Sviluppi Tecnici/Strategici</h3>\n<p>Sul fronte tecnologico, si assiste a progressi significativi in diversi settori chiave. L'intelligenza artificiale (IA) sta rivoluzionando la progettazione di <a href='https://phys.org/news/2025-12-ai-based-blueprint-catalysts-materials.html'>catalizzatori</a>, aprendo nuove frontiere nella scienza dei materiali e nell'efficienza energetica, elementi cruciali per le missioni spaziali a lungo termine. Parallelamente, la ricerca continua a esplorare la possibilit\u00e0 di vita su altri corpi celesti, come <a href='https://phys.org/news/2025-12-saturn-icy-moon-enceladus-life.html'>Encelado</a>, la luna ghiacciata di Saturno, aumentando l'interesse scientifico e l'urgenza di sviluppare tecnologie avanzate per l'esplorazione planetaria.</p>\n<p>Nel campo della medicina, si registrano importanti progressi nella diagnosi e nel trattamento di malattie complesse. La scoperta di un <a href='https://www.insalutenews.it/in-salute/scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale/?utm_source=rss&utm_medium=rss&utm_campaign=scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale'>segnale nel sangue per il Parkinson</a> e l'applicazione di diete specifiche come <a href='https://www.insalutenews.it/in-salute/dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro/?utm_source=rss&utm_medium=rss&utm_campaign=dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro'>\u201cfarmaco di precisione\u201d contro il cancro</a> indicano un futuro in cui la medicina personalizzata potrebbe giocare un ruolo fondamentale nel garantire la salute degli astronauti durante le missioni di lunga durata nello spazio.</p>\n\n<h3>Conclusioni Prospettiche</h3>\n<p>Le sfide geopolitiche e i progressi tecnologici delineano un futuro complesso ma ricco di opportunit\u00e0 per l'esplorazione spaziale. La competizione globale richiede un approccio strategico e collaborativo, in cui la condivisione delle risorse e delle conoscenze diventa essenziale per superare le barriere economiche e politiche. Le innovazioni tecnologiche, in particolare nel campo dell'IA, della scienza dei materiali e della medicina, offrono strumenti potenti per affrontare le sfide tecniche e logistiche delle missioni spaziali a lungo termine. La capacit\u00e0 di adattarsi a un contesto in rapida evoluzione e di sfruttare le nuove tecnologie sar\u00e0 determinante per il successo dell'esplorazione di Marte e per la futura presenza umana nello spazio.</p>\n<p>Inoltre, \u00e8 fondamentale considerare l'importanza di coinvolgere le nuove generazioni nelle politiche pubbliche <a href='https://formiche.net/2025/12/giovani-agenda-politica-politiche-pubbliche/'>future</a>. Il loro contributo di idee e innovazioni potrebbe essere essenziale per plasmare un futuro pi\u00f9 sostenibile e prospero per l'umanit\u00e0, sia sulla Terra che nello spazio.</p>\n",
-            "references": [
-                "Barbara Berlusconi spegne i fuochi politici di Marina e Pier Silvio Berlusconi | URL: https://www.startmag.it/mondo/barbara-berlusconi-spegne-i-fuochi-politici-di-marina-e-pier-silvio-berlusconi/",
-                "Perch\u00e9 \u00e8 sui visti il nuovo scazzo fra Trump e l\u2019Ue | URL: https://www.startmag.it/primo-piano/perche-e-sui-visti-il-nuovo-scazzo-fra-trump-e-lue/",
-                "La Germania vuole disfarsi dell\u2019Ue? | URL: https://www.startmag.it/mondo/ue-germania/",
-                "Tutti i prodotti made in Italy finiti nel mirino della Cina | URL: https://www.startmag.it/economia/tutti-i-prodotti-made-in-italy-finiti-nel-mirino-della-cina/",
-                "Ecco come la macroeconomia condizioner\u00e0 la finanza | URL: https://www.startmag.it/economia/ecco-come-la-macroeconomia-condizionera-la-finanza/",
-                "I giovani al centro dell\u2019agenda politica, per un nuovo modello di politiche pubbliche | URL: https://formiche.net/2025/12/giovani-agenda-politica-politiche-pubbliche/",
-                "Perch\u00e9 sono a favore della Tobin tax. Scrive Pedrizzi | URL: https://formiche.net/2025/12/perche-sono-a-favore-della-tobin-tax-scrive-pedrizzi/",
-                "Dopo l\u2019auto, la tecnologia. La Cina pronta a dissotterrare i sussidi | URL: https://formiche.net/2025/12/cina-sussidi-auto-byd-mercato-xi-imprese-europa/",
-                "Francia e Germania riportano la Russia nel sistema energetico europeo? Il caso Lingen | URL: https://formiche.net/2025/12/francia-e-germania-riportano-la-russia-nel-sistema-energetico-europeo-il-caso-lingen/",
-                "Corazzate nucleari, armi laser e industria. Tutto sulla Golden Fleet Initiative | URL: https://formiche.net/2025/12/corazzate-nucleari-armi-laser-e-industria-tutto-sulla-golden-fleet-initiative/",
-                "Maryland climate commission calls for state action amid budget pressure | URL: https://phys.org/news/2025-12-maryland-climate-commission-state-action.html",
-                "Mechanism for twisted growth of plant organs discovered | URL: https://phys.org/news/2025-12-mechanism-growth.html",
-                "Saturn's icy moon Enceladus is an attractive target in the search for life\u2014new research | URL: https://phys.org/news/2025-12-saturn-icy-moon-enceladus-life.html",
-                "An AI-based blueprint for designing catalysts across materials | URL: https://phys.org/news/2025-12-ai-based-blueprint-catalysts-materials.html",
-                "California's plastic bag phaseout nears, but leftover bags remain unregulated | URL: https://phys.org/news/2025-12-california-plastic-bag-phaseout-nears.",
-                "Dieta da combattimento come \u2018farmaco di precisione\u2019 contro il cancro | URL: https://www.insalutenews.it/in-salute/dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro/?utm_source=rss&utm_medium=rss&utm_campaign=dieta-da-combattimento-come-farmaco-di-precisione-contro-il-cancro",
-                "Salvato prima di nascere: rimossa cisti polmonare gigante con intervento in utero | URL: https://www.insalutenews.it/in-salute/salvato-prima-di-nascere-rimossa-cisti-polmonare-gigante-con-intervento-in-utero/?utm_source=rss&utm_medium=rss&utm_campaign=salvato-prima-di-nascere-rimossa-cisti-polmonare-gigante-con-intervento-in-utero",
-                "GAPS in volo sull\u2019Antartide: Bergamo protagonista nella ricerca dell\u2019antimateria cosmica | URL: https://www.insalutenews.it/in-salute/gaps-in-volo-sullantartide-bergamo-protagonista-nella-ricerca-dellantimateria-cosmica/?utm_source=rss&utm_medium=rss&utm_campaign=gaps-in-volo-sullantartide-bergamo-protagonista-nella-ricerca-dellantimateria-cosmica",
-                "Scoperto nel sangue il \u2018segnale\u2019 del Parkinson: una molecola rivela il danno neuronale | URL: https://www.insalutenews.it/in-salute/scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale/?utm_source=rss&utm_medium=rss&utm_campaign=scoperto-nel-sangue-il-segnale-del-parkinson-una-molecola-rivela-il-danno-neuronale",
-                "Endoscopia bariatrica, il Galliera protagonista delle nuove linee guida italiane | URL: https://www.insalutenews.it/in-salute/endoscopia-bariatrica-il-galliera-protagonista-delle-nuove-linee-guida-italiane/?utm_source=rss&utm_medium=rss&utm_campaign=endoscopia-bariatrica-il-galliera-protagonista-delle-nuove-linee-guida-italiane",
-                "Zelensky moves towards demilitarised zones in latest peace plan for Ukraine | URL: https://www.bbc.com/news/articles/c9d9wg2pwl1o?at_medium=RSS&at_campaign=rss",
-                "Front-runner to be Bangladesh PM returns after 17 years in exile | URL: https://www.bbc.com/news/articles/crk733k1k1eo?at_medium=RSS&at_campaign=rss",
-                "Officials discover a million more documents potentially related to Epstein case | URL: https://www.bbc.com/news/articles/czdgz84dn35o?at_medium=RSS&at_campaign=rss",
-                "Trump-backed candidate wins in knife-edge Honduran election | URL: https://www.bbc.com/news/articles/cyvgz1jn368o?at_medium=RSS&at_campaign=rss",
-                "Sean 'Diddy' Combs files appeal asking for immediate prison release | URL: https://www.bbc.com/news/articles/c5yqe4j15lzo?at_medium=RSS&at_campaign=rss",
-                "Zelensky nel discorso di Natale augura a Putin di morire. Bombardieri russi sui mari Barents e Norvegia | URL: https://www.ilsole24ore.com/art/zelensky-discorso-natale-augura-putin-morire-bombardieri-russi-mari-barents-e-norvegia-AIBdPcZ",
-                "Caso Epstein: trovato un milione di documenti. Senatrice repubblicana sollecita la diffusione | URL: https://www.ilsole24ore.com/art/caso-epstein-trovato-milione-documenti-senatrice-repubblicana-sollecita-diffusione-AItdIOZ",
-                "Dal Digital Services Act al ban sui visti: come si \u00e8 arrivati al caso Breton | URL: https://www.ilsole24ore.com/art/dal-digital-services-act-ban-visti-come-si-e-arrivati-caso-breton-AIjsdIZ",
-                "Fonte Afp, \u00abesplosione in una moschea in Nigeria, almeno 7 morti\u00bb | URL: https://www.ilsole24ore.com/art/fonte-afp-esplosione-una-moschea-nigeria-almeno-7-morti-AIxqJMZ",
-                "Quattordici Paesi, compresa l\u2019Italia, condannano i nuovi insediamenti in Cisgiordania | URL: https://www.ilsole24ore.com/art/fase-due-bloccata-hamas-continui-attacchi-tel-aviv-israele-violano-tregua-AIuE2KZ"
-            ]
         }
     ],
-    "last_update": "13/02/2026 07:45"
+    "last_update": "14/02/2026 07:29"
 };
