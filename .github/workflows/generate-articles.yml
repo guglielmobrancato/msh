@@ -26,12 +26,11 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install google-generativeai requests python-dateutil
+          pip install google-generativeai feedparser python-dateutil
       
       - name: Generate articles
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: |
           python scripts/generate_daily_articles.py
       

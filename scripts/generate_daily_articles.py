@@ -6,54 +6,52 @@ Generates 4 intelligence articles daily (one per category) and updates the websi
 
 import os
 import json
-import requests
-from datetime import datetime, timedelta
+import feedparser
+from datetime import datetime
 from pathlib import Path
 import google.generativeai as genai
 
 # Configuration
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
+# RSS Feeds for each category
 CATEGORIES = {
     'geopolitics': {
-        'keywords': 'geopolitics OR NATO OR "international relations" OR diplomacy OR sanctions',
+        'feed_url': 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',
         'label': 'GEOPOLITICS',
         'emoji': '🌍'
     },
     'defense': {
-        'keywords': 'military OR defense OR "armed forces" OR weapons OR warfare',
+        'feed_url': 'https://www.defensenews.com/arc/outboundfeeds/rss/',
         'label': 'DEFENSE',
         'emoji': '🛡️'
     },
     'cyber': {
-        'keywords': 'cybersecurity OR hacking OR "data breach" OR ransomware OR APT',
+        'feed_url': 'https://feeds.feedburner.com/TheHackersNews',
         'label': 'CYBER',
         'emoji': '💻'
     },
     'finance': {
-        'keywords': 'markets OR economy OR "central bank" OR sanctions OR trade',
+        'feed_url': 'https://feeds.bloomberg.com/markets/news.rss',
         'label': 'FINANCE',
         'emoji': '💰'
     }
 }
 
 def fetch_news(category_key, category_data):
-    """Fetch latest news for a category"""
-    url = 'https://newsapi.org/v2/everything'
-    params = {
-        'q': category_data['keywords'],
-        'language': 'en',
-        'sortBy': 'publishedAt',
-        'pageSize': 5,
-        'apiKey': NEWS_API_KEY,
-        'from': (datetime.now() - timedelta(days=2)).isoformat()
-    }
-    
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        articles = response.json().get('articles', [])
-        return articles[0] if articles else None
+    """Fetch latest news from RSS feed"""
+    try:
+        feed = feedparser.parse(category_data['feed_url'])
+        if feed.entries:
+            entry = feed.entries[0]
+            return {
+                'title': entry.get('title', 'No title'),
+                'description': entry.get('summary', entry.get('description', 'No description')),
+                'source': {'name': feed.feed.get('title', 'RSS Feed')},
+                'url': entry.get('link', '')
+            }
+    except Exception as e:
+        print(f"  ❌ RSS Error: {str(e)}")
     return None
 
 def generate_analysis(news_article, category_data):
