@@ -20,7 +20,7 @@ lxml==5.1.0
 feedparser==6.0.11
 
 # Google Gemini AI
-google-generativeai==0.3.2
+google-generativeai>=0.8.0
 
 # Instagram Automation
 instagrapi==2.1.2
