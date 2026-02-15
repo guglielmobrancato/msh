@@ -59,7 +59,7 @@ def fetch_news(category_key, category_data):
 def generate_analysis(news_article, category_data):
     """Generate intelligence analysis using Gemini"""
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-2.0-flash-exp')
+    model = genai.GenerativeModel('gemini-2.0-flash')  # MODELLO STABILE
     
     prompt = f"""You are an intelligence analyst for Ancile AI, a strategic intelligence platform. 
 Analyze this news article and write a professional intelligence report.
