@@ -1,0 +1,74 @@
+# ============ SECURITY - CRITICAL ============
+# NEVER commit these files - contain API keys and credentials
+.env
+.env.local
+.env.production
+*.key
+*.pem
+credentials.json
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============ Virtual Environments ============
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============ Database ============
+*.db
+*.sqlite
+*.sqlite3
+db_backups/
+
+# ============ Logs ============
+*.log
+logs/
+*.log.*
+
+# ============ Generated Content ============
+generated_images/
+cache/
+temp/
+tmp/
+
+# ============ Testing ============
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ============ System Files ============
+Thumbs.db
+.Trash-*

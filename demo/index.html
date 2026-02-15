@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛡️ Ancile AI | Strategic Intelligence Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --dark-bg: #0a0e14;
+            --darker-bg: #050810;
+            --card-bg: #151b26;
+            --border-color: #1f2937;
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --text-primary: #e5e7eb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: var(--darker-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: var(--accent-cyan);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.03em;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--accent-blue);
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            margin-top: 1.5rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-cyan);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        /* Categories */
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .category-tag {
+            padding: 0.5rem 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .category-tag:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+        }
+
+        .category-tag.active {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Article Card */
+        .article-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 40px rgba(59, 130, 246, 0.2);
+        }
+
+        .article-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .article-category {
+            padding: 0.25rem 0.75rem;
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-cyan);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-radius: 0.25rem;
+            font-weight: 600;
+        }
+
+        .article-date {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .article-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-summary {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .article-body {
+            padding: 1.5rem;
+        }
+
+        .article-stats {
+            display: flex;
+            gap: 1.5rem;
+            padding: 1rem 1.5rem;
+            background: var(--darker-bg);
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 4rem;
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .categories {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">🛡️ ANCILE AI</div>
+            <nav class="nav">
+                <a href="#geopolitics">Geopolitics</a>
+                <a href="#defense">Defense</a>
+                <a href="#cyber">Cyber</a>
+                <a href="#finance">Finance</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>🛡️ Strategic Intelligence Analysis</h1>
+        <p>AI-powered institutional intelligence reports delivering technical precision with academic rigor. Published
+            autonomously every 6 hours.</p>
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>SYSTEM OPERATIONAL • NEXT UPDATE IN 4H 23M</span>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <div class="categories">
+        <div class="category-tag active">All Reports</div>
+        <div class="category-tag">Geopolitics</div>
+        <div class="category-tag">Defense</div>
+        <div class="category-tag">Cyber</div>
+        <div class="category-tag">Finance</div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="grid">
+
+            <!-- Article 1 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">GEOPOLITICS</span>
+                        <span class="article-date">2 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Escalation of Reconnaissance Activities Along Suwalki Corridor Indicates
+                        Strategic Posture Adjustment</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">NATO command structures observed a 47% increase in aerial ISR operations
+                        along the Suwalki Corridor strategic chokepoint between Poland and Lithuania. This uptick
+                        correlates with joint exercises conducted by Russian Western Military District forces,
+                        suggesting potential force posture recalibration in High North theater...</p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 2,847 words</div>
+                    <div class="stat">⏱ 12 min read</div>
+                    <div class="stat">🎯 High Confidence</div>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">CYBER</span>
+                        <span class="article-date">5 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Advanced Persistent Threat Actor Achieves Unauthorized Access to
+                        Non-Classified DoD Network Infrastructure</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">An APT actor assessed with moderate confidence to be state-sponsored
+                        achieved unauthorized access to Department of Defense network infrastructure between February
+                        8-10, 2026. The intrusion set demonstrates tradecraft consistent with APT41 operational
+                        patterns, including exploitation of CVE-2024-XXXX and deployment of custom C2 infrastructure...
+                    </p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 3,124 words</div>
+                    <div class="stat">⏱ 14 min read</div>
+                    <div class="stat">🎯 Moderate Confidence</div>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">FINANCE</span>
+                        <span class="article-date">8 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Significant Volatility in Sovereign Debt Instruments Correlates with
+                        Taiwan Strait Security Escalation</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">Equity indices exhibited acute volatility on February 12, with S&P 500
+                        declining 4.2% intraday, correlating with escalated rhetoric regarding Taiwan Strait security.
+                        The selloff appears driven by systematic unwinding of leveraged positions, exacerbated by
+                        automated trading protocols responding to headline risk...</p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 2,591 words</div>
+                    <div class="stat">⏱ 11 min read</div>
+                    <div class="stat">🎯 High Confidence</div>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">DEFENSE</span>
+                        <span class="article-date">11 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Coordinated Kinetic Strikes Target Ukrainian Critical Infrastructure with
+                        40% Grid Capacity Degradation</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">Russian military forces conducted coordinated kinetic strikes targeting
+                        Ukrainian critical infrastructure on February 11, with primary focus on electrical transmission
+                        substations. Initial battle damage assessment indicates degradation of approximately 40% of grid
+                        capacity in eastern regions, consistent with operational patterns observed during Q4 2022
+                        engagements...</p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 2,973 words</div>
+                    <div class="stat">⏱ 13 min read</div>
+                    <div class="stat">🎯 High Confidence</div>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">GEOPOLITICS</span>
+                        <span class="article-date">14 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Multilateral Framework Establishment Indicates Strategic Partnership
+                        Consolidation in Indo-Pacific Theater</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">AUKUS trilateral security pact announced expansion of technical
+                        cooperation domains to include artificial intelligence, quantum computing, and undersea
+                        capabilities. This framework extension suggests deepening strategic alignment among member
+                        states and represents significant institutional architecture evolution in Indo-Pacific security
+                        landscape...</p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 2,156 words</div>
+                    <div class="stat">⏱ 9 min read</div>
+                    <div class="stat">🎯 Moderate Confidence</div>
+                </div>
+            </article>
+
+            <!-- Article 6 -->
+            <article class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">CYBER</span>
+                        <span class="article-date">17 hours ago</span>
+                    </div>
+                    <h2 class="article-title">Ransomware Campaign Targets Healthcare Infrastructure with Novel Lateral
+                        Movement Techniques</h2>
+                </div>
+                <div class="article-body">
+                    <p class="article-summary">A sophisticated ransomware campaign identified as "DarkSanction" has
+                        compromised 14 healthcare organizations across North America and Europe, employing novel lateral
+                        movement techniques that exploit trusted relationships between medical device networks and
+                        enterprise IT systems. Attribution confidence remains low pending further forensic analysis...
+                    </p>
+                </div>
+                <div class="article-stats">
+                    <div class="stat">📊 2,834 words</div>
+                    <div class="stat">⏱ 12 min read</div>
+                    <div class="stat">🎯 Low Confidence</div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>🛡️ ANCILE AI • Strategic Intelligence Platform</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+            Powered by Gemini AI • Updated automatically every 6 hours • All analyses generated autonomously
+        </p>
+    </footer>
+
+</body>
+
+</html>
