@@ -329,18 +329,18 @@ def update_homepage(articles_data):
         with open(index_path, 'r', encoding='utf-8') as f:
             html = f.read()
         
-        # Replace the grid content
-        start_marker = '<div class="grid">'
-        end_marker = '</div>\n    </main>'
+        # Replace content between START_ARTICLES and END_ARTICLES markers
+        start_marker = '<!-- START_ARTICLES -->'
+        end_marker = '<!-- END_ARTICLES -->'
         
         start_idx = html.find(start_marker)
-        end_idx = html.find(end_marker, start_idx)
+        end_idx = html.find(end_marker)
         
         if start_idx != -1 and end_idx != -1:
             new_html = (
                 html[:start_idx + len(start_marker)] +
                 '\n' + cards_html +
-                '\n        ' +
+                '\n            ' +
                 html[end_idx:]
             )
             
