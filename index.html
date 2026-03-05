@@ -1,481 +1,750 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🛡️ Ancile AI | Strategic Intelligence Analysis</title>
+    <title>DYNAMES | Governance di Forze e Sistemi</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <style>
+        :root {
+            --night-blue: #0b1120;
+            --slate-grey: #334155;
+            --light-grey: #f8fafc;
+            --optical-white: #ffffff;
+            --accent: #1e3a8a;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --text-light: #cbd5e1;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        :root {
-            --dark-bg: #0a0e14;
-            --darker-bg: #050810;
-            --card-bg: #151b26;
-            --border-color: #1f2937;
-            --accent-blue: #3b82f6;
-            --accent-cyan: #06b6d4;
-            --text-primary: #e5e7eb;
-            --text-secondary: #9ca3af;
-            --text-muted: #6b7280;
-        }
-
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--dark-bg);
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--light-grey);
             color: var(--text-primary);
-            line-height: 1.7;
-            overflow-x: hidden;
+            line-height: 1.6;
         }
 
-        /* Header */
-        .header {
-            background: var(--darker-bg);
-            border-bottom: 1px solid var(--border-color);
-            padding: 1.5rem 2rem;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .brand {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        header {
+            background-color: var(--optical-white);
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 0;
             position: sticky;
             top: 0;
             z-index: 1000;
-            backdrop-filter: blur(10px);
         }
 
-        .header-content {
-            max-width: 1400px;
-            margin: 0 auto;
+        .header-inner {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        /* Hamburger Menu Icon */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1001;
         }
 
-        .nav {
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--night-blue);
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        .desktop-nav {
             display: flex;
             gap: 2rem;
+            align-items: center;
         }
 
-        .nav a {
-            color: var(--text-secondary);
+        .desktop-nav a {
             text-decoration: none;
+            color: var(--night-blue);
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
             font-size: 0.9rem;
-            font-weight: 500;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 1px;
             transition: color 0.3s;
         }
 
-        .nav a:hover {
-            color: var(--accent-cyan);
+        .desktop-nav a:hover {
+            color: var(--accent);
         }
 
-        /* Hero */
+        .brand h1 {
+            font-size: 1.8rem;
+            color: var(--night-blue);
+            font-weight: 800;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-logo {
+            height: 40px;
+            /* Adjust size as needed */
+            width: auto;
+        }
+
+        .brand p {
+            font-size: 0.8rem;
+            color: var(--slate-grey);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .partners {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--slate-grey);
+            font-weight: 600;
+            display: none;
+            /* Hide partners on top for simple nav, we can put them in footer or keep desktop visual clean */
+        }
+
+        section {
+            padding: 7rem 0;
+            /* Increased spacing between sections from 5rem to 7rem */
+        }
+
         .hero {
-            padding: 4rem 2rem;
+            background-color: var(--night-blue);
+            color: var(--optical-white);
             text-align: center;
-            background: linear-gradient(180deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
-            border-bottom: 1px solid var(--border-color);
+            padding: 8rem 2rem;
         }
 
-        .hero h1 {
+        .hero h2 {
             font-size: 3rem;
             font-weight: 800;
-            margin-bottom: 1rem;
-            letter-spacing: -0.03em;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
         }
 
         .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto;
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
         }
 
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            background: rgba(59, 130, 246, 0.1);
-            border: 1px solid var(--accent-blue);
-            border-radius: 2rem;
-            font-size: 0.85rem;
-            margin-top: 1.5rem;
-        }
-
-        .status-dot {
-            width: 8px;
-            height: 8px;
-            background: var(--accent-cyan);
-            border-radius: 50%;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0.5;
-            }
-        }
-
-        /* Categories */
-        .categories {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            padding: 2rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .category-tag {
-            padding: 0.5rem 1.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 0.5rem;
-            font-size: 0.85rem;
+        .btn {
+            display: inline-block;
+            background-color: var(--optical-white);
+            color: var(--night-blue);
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Montserrat';
+            border-radius: 4px;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            cursor: pointer;
+            letter-spacing: 1px;
             transition: all 0.3s;
         }
 
-        .category-tag:hover {
-            border-color: var(--accent-blue);
-            transform: translateY(-2px);
+        .btn:hover {
+            background-color: var(--slate-grey);
+            color: var(--optical-white);
         }
 
-        .category-tag.active {
-            background: rgba(59, 130, 246, 0.2);
-            border-color: var(--accent-blue);
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--night-blue);
+            margin-bottom: 3rem;
+            font-weight: 700;
         }
 
-        /* Main Content */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
-
-        .grid {
+        .grid-2 {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
-        /* Article Card */
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--optical-white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-top: 4px solid var(--night-blue);
+        }
+
+        .card h3 {
+            color: var(--night-blue);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        /* Hub articles matching the old layout but new aesthetics */
+        .article-feed {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
         .article-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 0.75rem;
+            background: var(--optical-white);
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
             overflow: hidden;
-            transition: all 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
             cursor: pointer;
+            display: flex;
+            flex-direction: column;
         }
 
         .article-card:hover {
-            border-color: var(--accent-blue);
-            transform: translateY(-4px);
-            box-shadow: 0 10px 40px rgba(59, 130, 246, 0.2);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
 
         .article-header {
             padding: 1.5rem;
-            border-bottom: 1px solid var(--border-color);
+            background: #f1f5f9;
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .article-meta {
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .article-category {
-            padding: 0.25rem 0.75rem;
-            background: rgba(59, 130, 246, 0.15);
-            color: var(--accent-cyan);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-radius: 0.25rem;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+            font-family: 'Montserrat';
             font-weight: 600;
         }
 
+        .article-category {
+            color: var(--accent);
+        }
+
         .article-date {
-            font-size: 0.8rem;
-            color: var(--text-muted);
+            color: var(--text-secondary);
         }
 
         .article-title {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: var(--text-primary);
+            font-size: 1.2rem;
+            color: var(--night-blue);
             line-height: 1.4;
-            margin-bottom: 0.75rem;
+        }
+
+        .article-body {
+            padding: 1.5rem;
+            flex-grow: 1;
         }
 
         .article-summary {
             font-size: 0.95rem;
             color: var(--text-secondary);
-            line-height: 1.6;
         }
 
-        .article-body {
-            padding: 1.5rem;
+        .timeline {
+            border-left: 2px solid var(--accent);
+            padding-left: 2rem;
+            margin-left: 1rem;
         }
 
-        .article-stats {
-            display: flex;
-            gap: 1.5rem;
-            padding: 1rem 1.5rem;
-            background: var(--darker-bg);
-            border-top: 1px solid var(--border-color);
-            font-size: 0.85rem;
-            color: var(--text-muted);
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
         }
 
-        .stat {
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.45rem;
+            top: 0.2rem;
+            width: 1rem;
+            height: 1rem;
+            background: var(--optical-white);
+            border: 2px solid var(--accent);
+            border-radius: 50%;
+        }
+
+        .timeline-date {
+            font-weight: 700;
+            color: var(--accent);
+            font-family: 'Montserrat';
+        }
+
+        .edicola-img {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .governance-card {
+            text-align: center;
+        }
+
+        .governance-photo {
+            width: 150px;
+            height: 150px;
+            background-color: #e2e8f0;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem auto;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            justify-content: center;
+            color: var(--slate-grey);
+            font-family: 'Montserrat';
+            font-size: 0.9rem;
+            border: 3px solid var(--optical-white);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
 
-        /* Footer */
-        .footer {
-            margin-top: 4rem;
-            padding: 2rem;
+        .governance-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .governance-card h4 {
+            font-size: 1.1rem;
+            color: var(--night-blue);
+            margin-bottom: 0.25rem;
+        }
+
+        .governance-card p {
+            font-size: 0.9rem;
+            color: var(--slate-grey);
+        }
+
+        footer {
+            background: var(--night-blue);
+            color: var(--text-light);
             text-align: center;
-            border-top: 1px solid var(--border-color);
-            color: var(--text-muted);
+            padding: 3rem 0;
             font-size: 0.9rem;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .grid {
+        @media (max-width: 900px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .desktop-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--optical-white);
+                padding: 1rem 0;
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            }
+
+            .desktop-nav.active {
+                display: flex;
+            }
+
+            .grid-2,
+            .grid-3,
+            .grid-4 {
                 grid-template-columns: 1fr;
             }
 
-            .hero h1 {
-                font-size: 2rem;
+            .header-inner {
+                flex-direction: row;
+                /* Keep logo and hamburger inline */
+                gap: 1rem;
+                text-align: left;
+                align-items: center;
             }
 
-            .categories {
-                flex-wrap: wrap;
+            .brand h1 {
+                font-size: 1.4rem;
             }
+
+            .brand p {
+                font-size: 0.65rem;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+
+            /* Adjust on mobile for readability */
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <div class="logo">🛡️ ANCILE AI</div>
-            <nav class="nav">
-                <a href="#geopolitics">Geopolitics</a>
-                <a href="#defense">Defense</a>
-                <a href="#cyber">Cyber</a>
-                <a href="#finance">Finance</a>
+    <header>
+        <div class="container header-inner">
+            <div class="brand">
+                <h1>
+                    <img src="assets/logo%20DYNAMES%20positivo%20-%20quadrato.png" alt="DYNAMES Logo" class="brand-logo"
+                        onerror="this.style.display='none'">
+                    DYNAMES
+                </h1>
+                <p>Governance di Forze e Sistemi</p>
+            </div>
+
+            <!-- Hamburger Menu Icon -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="desktop-nav" id="desktopNav">
+                <a href="#progetto">Il Progetto</a>
+                <a href="hub.html">Analisi & Articoli</a>
+                <a href="eventi.html">Eventi</a>
+                <a href="#partnership">Network</a>
+                <a href="#governance">Chi Siamo</a>
             </nav>
         </div>
     </header>
 
-    <!-- Hero -->
     <section class="hero">
-        <h1>🛡️ Strategic Intelligence Analysis</h1>
-        <p>AI-powered institutional intelligence reports delivering technical precision with academic rigor. Published
-            autonomously every 6 hours.</p>
-        <div class="status-badge">
-            <span class="status-dot"></span>
-            <span>SYSTEM OPERATIONAL • NEXT UPDATE IN 4H 23M</span>
+        <div class="container">
+            <h2>Operare nella complessità per governare le dinamiche del futuro.</h2>
+            <p>DYNAMES analizza le dynámeis che strutturano la stabilità delle comunità politiche, offrendo un'analisi
+                strategica senza compromessi per comprendere le traiettorie dell'attualità globale.</p>
+
         </div>
     </section>
 
-    <!-- Categories -->
-    <div class="categories">
-        <div class="category-tag active">All Reports</div>
-        <div class="category-tag">Geopolitics</div>
-        <div class="category-tag">Defense</div>
-        <div class="category-tag">Cyber</div>
-        <div class="category-tag">Finance</div>
-    </div>
-
-    <!-- Main Content -->
-    <main class="container">
-        <div class="grid">
-            <!-- START_ARTICLES -->
-            <!-- Article 1 -->
-            <article class="article-card" onclick="window.location.href='articles/example-geopolitics.html'"
-                style="cursor: pointer;">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">GEOPOLITICS</span>
-                        <span class="article-date">2 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Escalation of Reconnaissance Activities Along Suwalki Corridor Indicates
-                        Strategic Posture Adjustment</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">NATO command structures observed a 47% increase in aerial ISR operations
-                        along the Suwalki Corridor strategic chokepoint between Poland and Lithuania. This uptick
-                        correlates with joint exercises conducted by Russian Western Military District forces,
-                        suggesting potential force posture recalibration in High North theater...</p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 2,847 words</div>
-                    <div class="stat">⏱ 12 min read</div>
-                    <div class="stat">🎯 High Confidence</div>
-                </div>
-            </article>
-
-            <!-- Article 2 -->
-            <article class="article-card">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">CYBER</span>
-                        <span class="article-date">5 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Advanced Persistent Threat Actor Achieves Unauthorized Access to
-                        Non-Classified DoD Network Infrastructure</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">An APT actor assessed with moderate confidence to be state-sponsored
-                        achieved unauthorized access to Department of Defense network infrastructure between February
-                        8-10, 2026. The intrusion set demonstrates tradecraft consistent with APT41 operational
-                        patterns, including exploitation of CVE-2024-XXXX and deployment of custom C2 infrastructure...
-                    </p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 3,124 words</div>
-                    <div class="stat">⏱ 14 min read</div>
-                    <div class="stat">🎯 Moderate Confidence</div>
-                </div>
-            </article>
-
-            <!-- Article 3 -->
-            <article class="article-card">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">FINANCE</span>
-                        <span class="article-date">8 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Significant Volatility in Sovereign Debt Instruments Correlates with
-                        Taiwan Strait Security Escalation</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">Equity indices exhibited acute volatility on February 12, with S&P 500
-                        declining 4.2% intraday, correlating with escalated rhetoric regarding Taiwan Strait security.
-                        The selloff appears driven by systematic unwinding of leveraged positions, exacerbated by
-                        automated trading protocols responding to headline risk...</p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 2,591 words</div>
-                    <div class="stat">⏱ 11 min read</div>
-                    <div class="stat">🎯 High Confidence</div>
-                </div>
-            </article>
-
-            <!-- Article 4 -->
-            <article class="article-card">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">DEFENSE</span>
-                        <span class="article-date">11 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Coordinated Kinetic Strikes Target Ukrainian Critical Infrastructure with
-                        40% Grid Capacity Degradation</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">Russian military forces conducted coordinated kinetic strikes targeting
-                        Ukrainian critical infrastructure on February 11, with primary focus on electrical transmission
-                        substations. Initial battle damage assessment indicates degradation of approximately 40% of grid
-                        capacity in eastern regions, consistent with operational patterns observed during Q4 2022
-                        engagements...</p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 2,973 words</div>
-                    <div class="stat">⏱ 13 min read</div>
-                    <div class="stat">🎯 High Confidence</div>
-                </div>
-            </article>
-
-            <!-- Article 5 -->
-            <article class="article-card">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">GEOPOLITICS</span>
-                        <span class="article-date">14 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Multilateral Framework Establishment Indicates Strategic Partnership
-                        Consolidation in Indo-Pacific Theater</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">AUKUS trilateral security pact announced expansion of technical
-                        cooperation domains to include artificial intelligence, quantum computing, and undersea
-                        capabilities. This framework extension suggests deepening strategic alignment among member
-                        states and represents significant institutional architecture evolution in Indo-Pacific security
-                        landscape...</p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 2,156 words</div>
-                    <div class="stat">⏱ 9 min read</div>
-                    <div class="stat">🎯 Moderate Confidence</div>
-                </div>
-            </article>
-
-            <!-- Article 6 -->
-            <article class="article-card">
-                <div class="article-header">
-                    <div class="article-meta">
-                        <span class="article-category">CYBER</span>
-                        <span class="article-date">17 hours ago</span>
-                    </div>
-                    <h2 class="article-title">Ransomware Campaign Targets Healthcare Infrastructure with Novel Lateral
-                        Movement Techniques</h2>
-                </div>
-                <div class="article-body">
-                    <p class="article-summary">A sophisticated ransomware campaign identified as "DarkSanction" has
-                        compromised 14 healthcare organizations across North America and Europe, employing novel lateral
-                        movement techniques that exploit trusted relationships between medical device networks and
-                        enterprise IT systems. Attribution confidence remains low pending further forensic analysis...
-                    </p>
-                </div>
-                <div class="article-stats">
-                    <div class="stat">📊 2,834 words</div>
-                    <div class="stat">⏱ 12 min read</div>
-                    <div class="stat">🎯 Low Confidence</div>
-                </div>
-            </article>
-            <!-- END_ARTICLES -->
+    <section id="progetto" class="container" style="padding-top: 10rem;">
+        <div class="grid-2" style="grid-template-columns: 1fr;">
+            <!-- Made this span full width since the award is moving -->
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h3
+                    style="font-family: 'Montserrat'; font-size: 2.2rem; color: var(--night-blue); margin-bottom: 1.5rem;">
+                    La Nostra Missione</h3>
+                <p style="margin-bottom: 3rem; font-size: 1.2rem; color: var(--text-secondary);">Non semplificare la
+                    complessità, ma comprenderne le traiettorie. In un'epoca di incertezza sistemica, DYNAMES aggrega
+                    analisi multilivello unendo il rigore accademico con le esigenze decisionali.</p>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>🛡️ ANCILE AI • Strategic Intelligence Platform</p>
-        <p style="margin-top: 0.5rem; font-size: 0.8rem;">
-            Powered by Gemini AI • Updated automatically every 6 hours • All analyses generated autonomously
-        </p>
+
+
+    <section id="hub" style="background: var(--optical-white);">
+        <div class="container">
+            <h2 class="section-title">Digital Hub: Analisi & Articoli</h2>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="hub.html" class="btn" style="background: var(--night-blue); color: var(--optical-white);">
+                    Vai ad Analisi & Articoli
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventi" class="container" style="padding-top: 10rem; margin-bottom: 6rem;">
+        <h2 class="section-title">Eventi & Roadshow</h2>
+        <div class="grid-2">
+            <div>
+                <div
+                    style="margin-bottom: 2rem; border-radius: 8px; overflow: hidden; height: 400px; width: 100%; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);">
+                    <img src="assets/camera%20dei%20deputati.jpg" alt="Locandina Prossimo Evento"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Maggio 2026</div>
+                        <h3 style="margin: 0.5rem 0; color: var(--night-blue);">Camera dei Deputati</h3>
+                        <p>Presentazione Report "Cultura della Difesa" con LUISS Press.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Ottobre 2026</div>
+                        <h3 style="margin: 0.5rem 0; color: var(--night-blue);">Senato della Repubblica</h3>
+                        <p>Premio Cultura della Difesa ed esposizione strategica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Ciclo Biennale di Confronto</h3>
+                <p>Partecipazione attiva ai 22 temi strategici del piano editoriale DYNAMES, strutturando tavoli di
+                    lavoro chiusi per l'analisi e lo sviluppo di policy paper condivise tra settore pubblico e privato.
+                </p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 4rem;">
+            <a href="eventi.html" class="btn"
+                style="background: var(--night-blue); color: var(--optical-white); display: inline-block;">Eventi</a>
+        </div>
+    </section>
+
+    <section id="partnership" style="background: var(--night-blue); color: var(--optical-white);">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--optical-white);">Partnership & Network</h2>
+
+            <div class="grid-4" style="text-align: center; margin-bottom: 4rem;">
+                <div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--light-grey);">Accademia</h3>
+                    <p style="color: var(--text-light); font-size: 0.9rem;">Ricerca scientifica, validazione
+                        metodologica e high-education.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--light-grey);">Istituzioni</h3>
+                    <p style="color: var(--text-light); font-size: 0.9rem;">Dialogo costante per la promozione di policy
+                        e governance efficace.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--light-grey);">Industria</h3>
+                    <p style="color: var(--text-light); font-size: 0.9rem;">Integrazione tecnologica e sicurezza del
+                        comparto produttivo.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--light-grey);">Corpi Intermedi</h3>
+                    <p style="color: var(--text-light); font-size: 0.9rem;">Coesione sociale e trasmissione della
+                        cultura della sicurezza.</p>
+                </div>
+            </div>
+
+            <div style="width: 100%; height: 1px; background: rgba(255,255,255,0.1); margin-bottom: 4rem;"></div>
+
+            <div style="display: flex; justify-content: center; align-items: center; gap: 4rem; flex-wrap: wrap;">
+                <!-- Marte Studios -->
+                <div style="text-align: center;">
+                    <div
+                        style="height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <img src="assets/marter%20logo.png" alt="Marte Studios Logo"
+                            style="max-height: 100%; max-width: 150px;" />
+                    </div>
+                    <span
+                        style="color: var(--light-grey); font-family: 'Montserrat'; font-weight: 600; font-size: 1.1rem;">Marte
+                        Studios</span><br>
+                    <span style="color: var(--text-light); font-size: 0.9rem; font-family: 'Montserrat';">Partner
+                        Multimediale</span>
+                </div>
+
+                <!-- LUISS Press -->
+                <div style="text-align: center;">
+                    <div
+                        style="height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <img src="assets/LUISS%20PRESS.png" alt="LUISS Press Logo"
+                            style="max-height: 100%; max-width: 150px; filter: brightness(0) invert(1);" />
+                    </div>
+                    <span
+                        style="color: var(--light-grey); font-family: 'Montserrat'; font-weight: 600; font-size: 1.1rem;">LUISS
+                        Press</span><br>
+                    <span style="color: var(--text-light); font-size: 0.9rem; font-family: 'Montserrat';">Partner</span>
+                </div>
+
+                <!-- LUISS Scuola di Giornalismo -->
+                <div style="text-align: center;">
+                    <div
+                        style="height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <img src="assets/LUISS%20Scuola%20di%20Giornalismo.png" alt="LUISS Scuola di Giornalismo Logo"
+                            style="max-height: 100%; max-width: 250px; filter: brightness(0) invert(1);" />
+                    </div>
+                    <span
+                        style="color: var(--light-grey); font-family: 'Montserrat'; font-weight: 600; font-size: 1.1rem;">LUISS
+                        Scuola di Giornalismo</span><br>
+                    <span style="color: var(--text-light); font-size: 0.9rem; font-family: 'Montserrat';">Partner</span>
+                </div>
+
+                <!-- Fondazione Boscacci -->
+                <div style="text-align: center;">
+                    <div
+                        style="height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <img src="assets/Fondazione%20Boscacci.png" alt="Fondazione Boscacci Logo"
+                            style="max-height: 100%; max-width: 150px; filter: brightness(0) invert(1);" />
+                    </div>
+                    <span
+                        style="color: var(--light-grey); font-family: 'Montserrat'; font-weight: 600; font-size: 1.1rem;">Fondazione
+                        Boscacci ETS</span><br>
+                    <span style="color: var(--text-light); font-size: 0.9rem; font-family: 'Montserrat';">Editore</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="governance" class="container" style="padding-top: 10rem; padding-bottom: 8rem;">
+        <h2 class="section-title">Chi Siamo: Governance</h2>
+        <div class="grid-4" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/Fabio%20Boscacci.jfif" alt="Fabio Boscacci"
+                        onerror="this.style.display='none'; this.nextSibling.textContent='[Foto Boscacci]'" />
+                </div>
+                <h4>Fabio Boscacci</h4>
+                <p>Co-fondatore & Direttore Responsabile</p>
+            </div>
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/Vinenzo%20D'ANNA.png" alt="Vincenzo D'Anna"
+                        onerror="this.style.display='none'; this.nextSibling.textContent='[Foto D Anna]'" />
+                </div>
+                <h4>Vincenzo D’Anna</h4>
+                <p>Cofondatore & Consigliere Editoriale e Scientifico</p>
+            </div>
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/Maria%20Crisitina%20Treccagnoli.png" alt="Maria Cristina Treccagnoli"
+                        onerror="this.style.display='none'; this.nextSibling.textContent='[Foto Treccagnoli]'" />
+                </div>
+                <h4>Maria Cristina Treccagnoli</h4>
+                <p>HR & Compliance Manager</p>
+            </div>
+        </div>
+        <div class="grid-4" style="grid-template-columns: repeat(3, 1fr); margin-top: 4rem;">
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/panico.jpg" alt="Elisabetta Panico" />
+                    [Foto Panico]
+                </div>
+                <h4>Elisabetta Panico</h4>
+                <p>Consulente & Ufficio Stampa</p>
+            </div>
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/io%20giacca%20blu.png" alt="Guglielmo Brancato"
+                        onerror="this.style.display='none'; this.nextSibling.textContent='[Foto Brancato]'" />
+                </div>
+                <h4>Guglielmo Brancato</h4>
+                <p>Technology Advisor</p>
+            </div>
+            <div class="governance-card">
+                <div class="governance-photo">
+                    <img src="assets/pallotta.jpg" alt="Simone Pallotta" />
+                    [Foto Pallotta]
+                </div>
+                <h4>Simone Pallotta</h4>
+                <p>Coordinatore eventi</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer
+        style="background: var(--night-blue); color: var(--text-light); padding: 4rem 0 2rem 0; font-size: 0.9rem; text-align: left;">
+        <div class="container"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; margin-bottom: 3rem;">
+            <!-- Colonna 1: Brand e Legale -->
+            <div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; letter-spacing: 1px; color: var(--optical-white);">
+                    DYNAMES</h3>
+                <p style="margin-bottom: 0.5rem;"><strong>Fondazione Boscacci ETS</strong></p>
+                <p style="margin-bottom: 0.5rem; line-height: 1.4;">Sede legale Via Carlo Noè 45<br>Gallarate (VA)</p>
+                <p style="margin-bottom: 0.5rem;">C.F. 03800470126</p>
+                <p>P.IVA 04096960127</p>
+            </div>
+
+            <!-- Colonna 2: Registrazioni e Contatti -->
+            <div>
+                <h4
+                    style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--optical-white); font-family: 'Montserrat';">
+                    Dati Registrazione</h4>
+                <p style="margin-bottom: 0.5rem; line-height: 1.4;">Reg. Trib. di Busto Arsizio<br>N. 01/2026 del 25
+                    febbraio 2026</p>
+                <p style="margin-bottom: 1.5rem;">Iscrizione al ROC n° 44335</p>
+                <h4
+                    style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--optical-white); font-family: 'Montserrat';">
+                    Contatti</h4>
+                <p><a href="mailto:redazione@boscacci.it"
+                        style="color: var(--text-light); text-decoration: none; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--optical-white)'"
+                        onmouseout="this.style.color='var(--text-light)'">redazione@boscacci.it</a></p>
+            </div>
+
+            <!-- Colonna 3: Direzione -->
+            <div>
+                <h4
+                    style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--optical-white); font-family: 'Montserrat';">
+                    Direzione</h4>
+                <p
+                    style="margin-bottom: 0.2rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--slate-grey);">
+                    Direttore responsabile</p>
+                <p style="margin-bottom: 1.5rem; font-weight: 500; color: var(--optical-white);">Fabio Boscacci</p>
+
+                <p
+                    style="margin-bottom: 0.2rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--slate-grey);">
+                    Direttore editoriale</p>
+                <p style="font-weight: 500; color: var(--optical-white);">Xxxxxxxxx</p>
+            </div>
+        </div>
+
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;">
+            <p style="color: var(--slate-grey); margin: 0;">Copyright 2026-2029 &copy; Fondazione Boscacci ETS. Tutti i
+                diritti sono riservati.</p>
+            <div style="display: flex; gap: 1.5rem; font-size: 0.8rem;">
+                <a href="#" style="color: var(--slate-grey); text-decoration: none; transition: color 0.3s;"
+                    onmouseover="this.style.color='var(--text-light)'"
+                    onmouseout="this.style.color='var(--slate-grey)'">Privacy Policy</a>
+                <a href="#" style="color: var(--slate-grey); text-decoration: none; transition: color 0.3s;"
+                    onmouseover="this.style.color='var(--text-light)'"
+                    onmouseout="this.style.color='var(--slate-grey)'">Termini di Servizio</a>
+            </div>
+        </div>
     </footer>
 
+    <!-- JavaScript For Hamburger menu -->
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById("desktopNav");
+            nav.classList.toggle("active");
+        }
+
+        // Hide menu on link click on mobile
+        document.querySelectorAll('.desktop-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('desktopNav').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
