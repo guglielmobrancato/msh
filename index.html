@@ -392,7 +392,17 @@
             .grid-2,
             .grid-3,
             .grid-4 {
-                grid-template-columns: 1fr;
+                display: block !important;
+            }
+
+            .grid-2>div,
+            .grid-3>div,
+            .grid-4>div,
+            .governance-card {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                margin-bottom: 2rem !important;
             }
 
             .header-inner {
@@ -612,7 +622,7 @@
 
     <section id="governance" class="container" style="padding-top: 10rem; padding-bottom: 8rem;">
         <h2 class="section-title">Chi Siamo: Governance</h2>
-        <div class="grid-4" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="grid-3">
             <div class="governance-card">
                 <div class="governance-photo">
                     <img src="assets/Fabio%20Boscacci.jfif" alt="Fabio Boscacci"
@@ -638,7 +648,7 @@
                 <p>HR & Compliance Manager</p>
             </div>
         </div>
-        <div class="grid-4" style="grid-template-columns: repeat(3, 1fr); margin-top: 4rem;">
+        <div class="grid-3" style="margin-top: 4rem;">
             <div class="governance-card">
                 <div class="governance-photo">
                     <img src="assets/panico.jpg" alt="Elisabetta Panico" />
